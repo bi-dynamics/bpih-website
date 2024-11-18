@@ -123,9 +123,8 @@ export default function Navbar() {
           {hyperlinks.map((link, index) => {
             if (link.dropdown) {
               return (
-                <div className="relative group">
+                <div key={index} className="relative group">
                   <Link
-                    key={index}
                     href={link.href}
                     className="hidden md:flex font-bold gap-0 items-center justify-center transition-colors hover:text-benzelRed"
                   >

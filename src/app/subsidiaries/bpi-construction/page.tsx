@@ -42,7 +42,7 @@ export default function page() {
             construction, alterations and additions to parks division
             Pionerspark, Outapi open market, NHE houses in Omusati region. The
             direction we provide is based on a thorough knowledge of the
-            industry and our client's specific needs.
+            industry and our client&apos;s specific needs.
             <br />
             <br />
             <div className="flex flex-col sm:flex-row w-full items-start justify-between gap-16 ">

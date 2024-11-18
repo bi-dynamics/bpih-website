@@ -175,9 +175,9 @@ export default function page() {
               time of receipt of your orders. The supplies you need are
               delivered directly to your door steps in the shortest delivery
               period agreed. In this regard we are proudly Marce Fire Fighting
-              Manufacturers' Namibia local partner. In this partnership, we have
-              successfully delivered Fire Fighting Trucks to Namibia Airports
-              Company and Ministry of Regional and Local Government
+              Manufacturers&apos; Namibia local partner. In this partnership, we
+              have successfully delivered Fire Fighting Trucks to Namibia
+              Airports Company and Ministry of Regional and Local Government
             </p>
           </div>
           <div className="w-full shadow-md flex flex-col gap-4 items-center justify-start p-8 sm:p-16 bg-benzelBlueShade rounded-2xl">
@@ -193,7 +193,7 @@ export default function page() {
             </h4>
             <p className="w-fit text-pretty text-left text-primary-foreground text-base md:text-lg">
               Our company, in partnership with international companies, have
-              also joined the Government's initiative in achieving the
+              also joined the Government&apos;s initiative in achieving the
               objectives of vision 2030 by investing in solar energy generating
               systes for cheap green electricity from sunlight. We also offer
               services in Security, Investments, and Manufacturing.

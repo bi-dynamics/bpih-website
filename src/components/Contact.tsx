@@ -76,8 +76,8 @@ function ContactForm() {
         </h2>
         <p className="text-sm sm:text-base">
           Would you like to speak to one of our team over the phone? Just submit
-          your details and we'll be in touch shortly. You can also email us if
-          you would prefer.
+          your details and we&apos;ll be in touch shortly. You can also email us
+          if you would prefer.
         </p>
         <div className="flex flex-wrap md:flex-col gap-8 items-start justify-start">
           <div className="flex flex-col gap-2">

@@ -95,7 +95,7 @@ export default function page() {
             <p className="w-fit text-pretty text-primary-foreground text-center text-sm sm:text-lg">
               A lot of companies have ignored business ethics and good corporate
               governance in their bid to make quick profits, yet at BPIH we
-              thrive to give a service beyond our client's expectation. Our
+              thrive to give a service beyond our client&apos;s expectation. Our
               belief is based on the fact that a satisfied customer is the basis
               of our growth.
             </p>
@@ -143,7 +143,7 @@ export default function page() {
               </li>
               <li className=" list-disc">
                 By ensuring state of the art technology that enhances efficiency
-                and effectiveness in solving our clients' problems.
+                and effectiveness in solving our clients&apos; problems.
               </li>
               <li className=" list-disc">
                 By employing, training and retaining highly qualified, skilled

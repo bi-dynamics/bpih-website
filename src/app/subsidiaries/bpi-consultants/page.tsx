@@ -105,7 +105,7 @@ export default function page() {
               We offer hands-on, customer focused marketing consultancy. We are
               dedicated to assist companies boost their performances in the
               market place through innovative thinking and proven methodologies.
-              Our specialized individuals analyze the client's business
+              Our specialized individuals analyze the client&apos;s business
               structure and develop and maintain ongoing strategic marketing
               plans.
             </p>

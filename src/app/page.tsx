@@ -85,8 +85,8 @@ export default function Home() {
             that distinguish us as a leading company. Our goal is to provide a
             higher level of service than is found in any other company. We
             consistently bring superior craftsmanship and thrive to meet our
-            customers' needs and demands through our quest for efficiency and
-            effectiveness. We pay close attention to the fine details while
+            customers&apos; needs and demands through our quest for efficiency
+            and effectiveness. We pay close attention to the fine details while
             thriving to deliver cost effective service to our clients on a long
             term basis. We need to develop a client relationship which is as
             important as the jobs themselves.
@@ -115,7 +115,7 @@ export default function Home() {
             />
             <h3 className="text-white text-2xl font-semibold">OUR APPROACH</h3>
             <p className="w-fit text-pretty text-primary-foreground">
-              To us, it's not just work; we take pride in the solutions we
+              To us, it&apos;s not just work; we take pride in the solutions we
               deliver. We encourage each other to achieve excellence in all
               endeavours and ensure projects meet our own personal high
               standards.
