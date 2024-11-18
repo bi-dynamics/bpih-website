@@ -18,7 +18,7 @@ const subsidiaries: {
     title_color: "text-benzelBurgundy",
     bg_color: "bg-benzelBurgundy",
     description:
-      "Has a long history of buying, supply and delivery of various products from domestic, industrial to commercial products.",
+      "A seasoned procurement and supply chain solutions provider, with a rich history of sourcing and delivering a wide range of products for domestic, industrial, and commercial applications.",
     href: "/subsidiaries/benzel-and-partners-investments",
   },
   {
@@ -27,7 +27,7 @@ const subsidiaries: {
     title_color: "text-benzelPurple",
     bg_color: "bg-benzelPurple",
     description:
-      "Has a long history of buying, supply and delivery of various products from domestic, industrial to commercial products.",
+      "BPI Consultants offer a suite of expert advisory services tailored to the unique needs of our clients. Our highly skilled teams possess in-depth knowledge across various fields, including finance, accounting, information technology, human resources, and corporate advisory.",
     href: "/subsidiaries/bpi-consultants",
   },
   {
@@ -36,7 +36,7 @@ const subsidiaries: {
     title_color: "text-benzelYellow",
     bg_color: "bg-benzelYellow",
     description:
-      "Has a long history of buying, supply and delivery of various products from domestic, industrial to commercial products.",
+      "A diversified energy solutions provider, with a strategic 34% stake in Ejuve One Solar Energy (Pty) Ltd. This significant investment enables the production of 5MW of clean solar energy in Gobabis, Omakeke region. In addition to solar energy, BPI Energy Solutions is actively exploring opportunities in wind energy, biomass, and mineral resources, while also supplying high-quality solar PV components.",
     href: "/subsidiaries/bpi-energy-solutions",
   },
   {
@@ -45,7 +45,7 @@ const subsidiaries: {
     title_color: "text-benzelRed",
     bg_color: "bg-benzelRed",
     description:
-      "Has a long history of buying, supply and delivery of various products from domestic, industrial to commercial products.",
+      "A comprehensive construction solutions provider, specializing in the delivery of high-quality domestic, industrial, and commercial building projects. Our services encompass a wide range of construction activities, including renovations, welding, plumbing, electrical installations, and more.",
     href: "/subsidiaries/bpi-construction",
   },
   {
@@ -54,7 +54,7 @@ const subsidiaries: {
     title_color: "text-benzelTeal",
     bg_color: "bg-benzelTeal",
     description:
-      "Has a long history of buying, supply and delivery of various products from domestic, industrial to commercial products.",
+      "Our specialized supply chain solutions provider, offering unique expertise in services including import/export, fuel and oil supply, general merchandise trading, and product delivery. Our team ensures efficient and reliable supply chain operations.",
     href: "/subsidiaries/bpi-supplies",
   },
   {
@@ -63,7 +63,7 @@ const subsidiaries: {
     title_color: "text-benzelOrange",
     bg_color: "bg-benzelOrange",
     description:
-      "Has a long history of buying, supply and delivery of various products from domestic, industrial to commercial products.",
+      "BPI Information Technology is a leading IT solutions provider. We offer software development, IT consulting, network solutions, and cybersecurity services. Our team delivers innovative solutions, empowering businesses to achieve their goals.",
     href: "/subsidiaries/bpi-information-technologies",
   },
 ];

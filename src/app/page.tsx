@@ -77,7 +77,7 @@ export default function Home() {
       <Subsidiaries />
       <section className="w-full bg-benzelBlue h-fit flex flex-col items-center justify-center px-4  md:px-[64px] lg:px-[100px] py-16 gap-16">
         <h2 className="text-5xl font-semibold">What Makes Us Different?</h2>
-        <div className="w-full flex flex-col sm:flex-row gap-8">
+        <div className="w-full flex lg:w-2/3 flex-col sm:flex-row gap-8">
           <p>
             The company is manned by highly qualified individuals who have
             diverse knowledge, expertise and experience in business and IT
