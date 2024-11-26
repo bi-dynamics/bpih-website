@@ -30,13 +30,22 @@ const subsidiaries: {
     href: "benzel-and-partners-investments",
   },
   {
-    logo: "/bpi-consultants-logo.png",
-    title: "BPI Consultants CC",
-    title_color: "text-benzelPurple",
-    bg_color: "bg-benzelPurple",
+    logo: "/bpi-technologies-logo.png",
+    title: "BPI Information Technologies CC",
+    title_color: "text-benzelOrange",
+    bg_color: "bg-benzelOrange",
     description:
       "Has a long history of buying, supply and delivery of various products from domestic, industrial to commercial products.",
-    href: "bpi-consultants",
+    href: "bpi-information-technologies",
+  },
+  {
+    logo: "/bpi-supplies-logo.png",
+    title: "BPI Supply Autotrader CC",
+    title_color: "text-benzelTeal",
+    bg_color: "bg-benzelTeal",
+    description:
+      "Has a long history of buying, supply and delivery of various products from domestic, industrial to commercial products.",
+    href: "bpi-supply-autotrader",
   },
   {
     logo: "/bpi-energy-solutions.png",
@@ -57,22 +66,13 @@ const subsidiaries: {
     href: "bpi-construction",
   },
   {
-    logo: "/bpi-supplies-logo.png",
-    title: "BPI Supplies CC",
-    title_color: "text-benzelTeal",
-    bg_color: "bg-benzelTeal",
+    logo: "/bpi-consultants-logo.png",
+    title: "BPI General Trading CC",
+    title_color: "text-benzelPurple",
+    bg_color: "bg-benzelPurple",
     description:
       "Has a long history of buying, supply and delivery of various products from domestic, industrial to commercial products.",
-    href: "bpi-supplies",
-  },
-  {
-    logo: "/bpi-technologies-logo.png",
-    title: "BPI INFORMATION TECHNOLOGIES",
-    title_color: "text-benzelOrange",
-    bg_color: "bg-benzelOrange",
-    description:
-      "Has a long history of buying, supply and delivery of various products from domestic, industrial to commercial products.",
-    href: "bpi-information-technologies",
+    href: "bpi-general-trading",
   },
 ];
 
@@ -88,7 +88,7 @@ export default function page() {
         </h1>
       </header>
       <section className="w-full bg-slate-100 h-fit flex flex-col items-start justify-center  md:px-[64px] lg:px-[100px] sm:py-32 gap-8">
-        <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 justify-center">
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
           {subsidiaries.map((subsidiary, index) => (
             <div
               key={index}

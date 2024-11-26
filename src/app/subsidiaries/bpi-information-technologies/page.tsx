@@ -12,7 +12,7 @@ export default function page() {
 
         <h1 className="absolute text-5xl md:text-7xl font-bold p-4 sm:p-0">
           BPI Information <br />
-          Technologies
+          Technologies CC
         </h1>
       </header>
       <section className="w-full h-fit flex items-center justify-center md:px-[64px] lg:px-[100px]">
@@ -64,24 +64,41 @@ export default function page() {
             components.
             <br />
             <br />
-            <div className="flex flex-col sm:flex-row w-full items-start justify-between gap-16 ">
+            <div className="flex flex-col-reverse md:flex-row w-full items-start justify-between gap-16 ">
               <p className="w-full text-justify">
-                BPI Technology is also involved in three major project at MTC.
-                These are, Consultancy and Integration services for the
-                enterprise data warehousing (EDW), Supply, Delivery and
-                Installation of the Revenue Assurance and Fraud Detection and
-                Management System and Providing SS7 Signalling, Diameter and SMS
-                Firewall. In addition this this, BPI technology prides itself as
-                having some of the most skilled engineers in the field of
-                Network Design, Implementation, Operations and Maintenance as
-                well as DATA Center, Disaster Recovery Site design and
-                Implementation.
+                BPI Technology is also involved in three major projects with
+                telecommunication companies. These are, Consultancy and
+                Integration services for the enterprise data warehousing (EDW),
+                Supply, Delivery and Installation of the Revenue Assurance and
+                Fraud Detection and Management System and Providing SS7
+                Signalling, Diameter and SMS Firewall. In addition this this,
+                BPI technology prides itself as having some of the most skilled
+                engineers in the field of Network Design, Implementation,
+                Operations and Maintenance as well as DATA Center, Disaster
+                Recovery Site design and Implementation. Furthermore, BPI
+                Technologies has Microsoft certified specialists that handle
+                Microsoft Exchange and Microsoft Active Directory and other LDAP
+                implementations and maintenance.
                 <br />
-                <br /> Furthermore, BPI Technologies has Microsoft certified
-                specialists that handle Microsoft Exchange and Microsoft Active
-                Directory and other LDAP implementations and maintenance.
+                <br />
+                Being driven by an attitude of continously innovating, BPI
+                Technologies has successfully ventured into vehicle tracking,
+                fuel, oil and fleet management. To date we have managed a fleet
+                of 750 vehicles with vehicle tracking and fuel management
+                devices for City of Windhoek. Fleet management refers to all
+                actions that need to take place to keep a fleet running
+                efficiently, on time, and within budget. It is used by fleet
+                managers to monitor fleet activities and make decisions about
+                proper asset management, dispatch and routing, and vehicle
+                acquisition and disposal. Fleet management helps to ensure that
+                a fleet is meeting compliance requirements, continuosly
+                improving efficiencies and reducing costs. GPS tracking involvs
+                a network of satellites that triangulate a trackable device's
+                location, movement, and speed. These trackable devices are
+                installed in vehicles or can be help in your hand like a
+                cellphone.
               </p>
-              <div className="relative w-full sm:w-1/3 aspect-square h-auto">
+              <div className="relative w-1/3 md:w-2/3 aspect-square h-auto">
                 <Image
                   src="/bpi-technologies-logo.png"
                   alt="BPI Information Technologies CC logo"
@@ -97,8 +114,44 @@ export default function page() {
         <h3 className=" text-3xl md:text-5xl text-benzelBlue font-semibold">
           Services
         </h3>
-        <div className="w-full grid md:grid-cols-3 h-fit justify-center px-4 gap-8">
-          <div className="w-full shadow-md flex flex-col gap-4 items-center justify-start p-8 sm:p-16 bg-benzelBlueShade rounded-2xl">
+        <div className="w-full grid md:grid-cols-2 lg:grid-cols-3 h-fit justify-center px-4 gap-8">
+          <div className="w-full shadow-md flex flex-col gap-4 items-center justify-start p-8 lg:p-16 bg-benzelBlueShade rounded-2xl">
+            <Image
+              src="/icons/data-migration-icon.png"
+              alt="Data Migration Services"
+              width={128}
+              height={128}
+              className="w-[64px] md:w-32 md:h-32 h-[64px]"
+            />
+            <h4 className="text-white text-center text-lg md:text-2xl h-20 font-bold">
+              Data Mirgration
+            </h4>
+            <p className="w-full max-w-screen-lg text-pretty text-left text-primary-foreground text-base md:text-lg">
+              Data can be migrated between different storage solutions including
+              disk arrays from various manufacturers. Any type of data between
+              devises of different manufacturer can be transferred.
+            </p>
+          </div>
+          <div className="w-full shadow-md flex flex-col gap-4 items-center justify-start p-8 lg:p-16 bg-benzelBlueShade rounded-2xl">
+            <Image
+              src="/values-icon.png"
+              alt="Our Experience icon"
+              width={128}
+              height={128}
+              className="w-[64px] md:w-32 md:h-32 h-[64px]"
+            />
+            <h4 className="text-white text-center text-lg md:text-2xl h-20 font-bold">
+              Data Warehousing
+            </h4>
+            <p className="w-full max-w-screen-lg text-pretty text-left text-primary-foreground text-base md:text-lg">
+              We also provide our clients with the knowledge on data warehousing
+              which incorporates data stores and conceptual, logical and
+              physical models to support business goals and end user information
+              needs. A data warehouse(DW) is the foundation for successful
+              Business.
+            </p>
+          </div>
+          <div className="w-full shadow-md flex flex-col gap-4 items-center justify-start p-8 lg:p-16 bg-benzelBlueShade rounded-2xl">
             <Image
               src="/icons/web-development-icon.png"
               alt="Web Development Services"
@@ -117,7 +170,7 @@ export default function page() {
               software on many client computers.
             </p>
           </div>
-          <div className="w-full shadow-md flex flex-col gap-4 items-center justify-start p-8 sm:p-16 bg-benzelBlueShade rounded-2xl">
+          <div className="w-full shadow-md flex flex-col gap-4 items-center justify-start p-8 lg:p-16 bg-benzelBlueShade rounded-2xl">
             <Image
               src="/icons/software-consulting-icon.png"
               alt="Software Consulting Services"
@@ -136,7 +189,7 @@ export default function page() {
               consulting services in our solutions.
             </p>
           </div>
-          <div className="w-full shadow-md flex flex-col gap-4 items-center justify-start p-8 sm:p-16 bg-benzelBlueShade rounded-2xl">
+          <div className="w-full shadow-md flex flex-col gap-4 items-center justify-start p-8 lg:p-16 bg-benzelBlueShade rounded-2xl">
             <Image
               src="/icons/computer-programming-icon.png"
               alt="Computer Programming Services"
@@ -144,7 +197,7 @@ export default function page() {
               height={128}
               className="w-[64px] md:w-32 md:h-32 h-[64px]"
             />
-            <h4 className="text-white text-center text-lg md:text-2xl h-20 font-bold">
+            <h4 className="text-white text-center text-lg md:text-2xl h-fit font-bold">
               Computer Programming Services
             </h4>
             <p className="w-full max-w-screen-lg text-pretty text-left text-primary-foreground text-base md:text-lg">
@@ -154,7 +207,7 @@ export default function page() {
               expandable and maintainable.
             </p>
           </div>
-          <div className="w-full shadow-md flex flex-col gap-4 items-center justify-start p-8 sm:p-16 bg-benzelBlueShade rounded-2xl">
+          <div className="w-full shadow-md flex flex-col gap-4 items-center justify-start p-8 lg:p-16 bg-benzelBlueShade rounded-2xl">
             <Image
               src="/icons/software-development-icon.png"
               alt="Software Development Services"
@@ -162,7 +215,7 @@ export default function page() {
               height={128}
               className="w-[64px] md:w-32 md:h-32 h-[64px]"
             />
-            <h4 className="text-white text-center text-lg md:text-2xl h-20 font-bold">
+            <h4 className="text-white text-center text-lg md:text-2xl h-fit font-bold">
               Software Development Services
             </h4>
             <p className="w-full max-w-screen-lg text-pretty text-left text-primary-foreground text-base md:text-lg">
@@ -180,7 +233,7 @@ export default function page() {
               </ul>
             </div>
           </div>
-          <div className="w-full shadow-md flex flex-col gap-4 items-center justify-start p-8 sm:p-16 bg-benzelBlueShade rounded-2xl">
+          <div className="w-full shadow-md flex flex-col gap-4 items-center justify-start p-8 lg:p-16 bg-benzelBlueShade rounded-2xl">
             <Image
               src="/icons/computer-repairs-icon.png"
               alt="Computer Repair Services"
@@ -197,7 +250,7 @@ export default function page() {
               create and maintain computer networks.
             </p>
           </div>
-          <div className="w-full shadow-md flex flex-col gap-4 items-center justify-start p-8 sm:p-16 bg-benzelBlueShade rounded-2xl">
+          <div className="w-full shadow-md flex flex-col gap-4 items-center justify-start p-8 lg:p-16 bg-benzelBlueShade rounded-2xl">
             <Image
               src="/icons/delivery-and-supply-icon.png"
               alt="Supply and Delivery Services"
@@ -212,42 +265,6 @@ export default function page() {
               We supply a range of information technology products. They range
               from Printers, Servers, Laptops, Storage solutions, Power
               solutions, Desktops and various related IT products.
-            </p>
-          </div>
-          <div className="w-full shadow-md flex flex-col gap-4 items-center justify-start p-8 sm:p-16 bg-benzelBlueShade rounded-2xl">
-            <Image
-              src="/icons/data-migration-icon.png"
-              alt="Data Migration Services"
-              width={128}
-              height={128}
-              className="w-[64px] md:w-32 md:h-32 h-[64px]"
-            />
-            <h4 className="text-white text-center text-lg md:text-2xl h-20 font-bold">
-              Data Mirgration
-            </h4>
-            <p className="w-full max-w-screen-lg text-pretty text-left text-primary-foreground text-base md:text-lg">
-              Data can be migrated between different storage solutions including
-              disk arrays from various manufacturers. Any type of data between
-              devises of different manufacturer can be transferred.
-            </p>
-          </div>
-          <div className="w-full shadow-md flex flex-col gap-4 items-center justify-start p-8 sm:p-16 bg-benzelBlueShade rounded-2xl">
-            <Image
-              src="/values-icon.png"
-              alt="Our Experience icon"
-              width={128}
-              height={128}
-              className="w-[64px] md:w-32 md:h-32 h-[64px]"
-            />
-            <h4 className="text-white text-center text-lg md:text-2xl h-20 font-bold">
-              Data Warehousing
-            </h4>
-            <p className="w-full max-w-screen-lg text-pretty text-left text-primary-foreground text-base md:text-lg">
-              We also provide our clients with the knowledge on data warehousing
-              which incorporates data stores and conceptual, logical and
-              physical models to support business goals and end user information
-              needs. A data warehouse(DW) is the foundation for successful
-              Business.
             </p>
           </div>
         </div>

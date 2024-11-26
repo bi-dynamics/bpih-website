@@ -52,8 +52,8 @@ const hyperlinks: hyperlinksType[] = [
         href: "/subsidiaries/benzel-and-partners-investments",
       },
       {
-        title: "BPI Consultants",
-        href: "/subsidiaries/bpi-consultants",
+        title: "BPI General Trading",
+        href: "/subsidiaries/bpi-general-trading",
       },
       {
         title: "BPI Energy Solutions",
@@ -64,8 +64,8 @@ const hyperlinks: hyperlinksType[] = [
         href: "/subsidiaries/bpi-construction",
       },
       {
-        title: "BPI Supplies",
-        href: "/subsidiaries/bpi-supplies",
+        title: "BPI Supply Autotrader",
+        href: "/subsidiaries/bpi-supply-autotrader",
       },
       {
         title: "BPI Information Technology",
@@ -79,7 +79,7 @@ const hyperlinks: hyperlinksType[] = [
   },
   {
     title: "CONTACT US",
-    href: "/contact-us",
+    href: "/#contact-us",
     CTA: true,
   },
 ];

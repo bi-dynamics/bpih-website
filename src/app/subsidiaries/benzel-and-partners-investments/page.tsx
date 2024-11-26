@@ -11,7 +11,7 @@ export default function page() {
         </div>
 
         <h1 className="absolute text-5xl md:text-7xl font-bold p-4 sm:p-0">
-          Benzel & Partners <br /> INVESTMENTS
+          Benzel & Partners <br /> INVESTMENTS (Pty) Ltd
         </h1>
       </header>
       <section className="w-full h-fit flex items-center justify-center md:px-[64px] lg:px-[100px]">
@@ -96,8 +96,65 @@ export default function page() {
         <h3 className="text-4xl md:text-6xl text-benzelBlue font-semibold">
           Services
         </h3>
-        <div className="w-full grid md:grid-cols-3 h-fit justify-center px-2 gap-8">
-          <div className="w-full shadow-md flex flex-col gap-4 items-center justify-start p-8 sm:p-16 bg-benzelBlueShade rounded-2xl">
+        <div className="w-full grid md:grid-cols-2 lg:grid-cols-3 h-fit justify-center px-2 gap-8">
+          <div className="w-full shadow-md flex flex-col gap-4 items-center justify-start p-8 lg:p-16 bg-benzelBlueShade rounded-2xl">
+            <Image
+              src="/icons/delivery-and-supply-icon.png"
+              alt="Supply and Delivery Services"
+              width={128}
+              height={128}
+              className="w-[64px] md:w-32 md:h-32 h-[64px]"
+            />
+            <h4 className="text-white text-center text-lg md:text-2xl h-20 font-bold">
+              Delivery and Supply of Various Products
+            </h4>
+            <p className="w-fit text-pretty text-left text-primary-foreground text-base md:text-lg">
+              We aim to deliver all standard requisitions within the stipulated
+              time of receipt of your orders. The supplies you need are
+              delivered directly to your door steps in the shortest delivery
+              period agreed. In this regard we are proudly Marce Fire Fighting
+              Manufacturers&apos; Namibia local partner. In this partnership, we
+              have successfully delivered Fire Fighting Trucks to Namibia
+              Airports Company and Ministry of Regional and Local Government
+            </p>
+          </div>
+          <div className="w-full shadow-md flex flex-col gap-4 items-center justify-start p-8 lg:p-16 bg-benzelBlueShade rounded-2xl">
+            <Image
+              src="/icons/import-and-export-icon.png"
+              alt="Import and Export Services"
+              width={128}
+              height={128}
+              className="w-[64px] md:w-32 md:h-32 h-[64px]"
+            />
+            <h4 className="text-white text-center text-lg md:text-2xl h-20 font-bold">
+              Import and Export
+            </h4>
+            <p className="w-fit text-pretty text-left text-primary-foreground text-base md:text-lg">
+              We are involved in helping our clients import and export their
+              products within and outside our borders. This is professionally
+              done with our team of experts.
+            </p>
+          </div>
+          <div className="w-full shadow-md flex flex-col gap-4 items-center justify-start p-8 lg:p-16 bg-benzelBlueShade rounded-2xl">
+            <Image
+              src="/icons/solar-electricity-icon.png"
+              alt="Solar Electricity Services"
+              width={128}
+              height={128}
+              className="w-[64px] md:w-32 md:h-32 h-[64px]"
+            />
+            <h4 className="text-white text-center text-lg md:text-2xl h-20 font-bold">
+              Solar Electricity Generations
+            </h4>
+            <p className="w-fit text-pretty text-left text-primary-foreground text-base md:text-lg">
+              Our company, in partnership with international companies, have
+              also joined the Government&apos;s initiative in achieving the
+              objectives of vision 2030 by investing in solar energy generating
+              systes for cheap green electricity from sunlight. We also offer
+              services in Security, Investments, and Manufacturing.
+            </p>
+          </div>
+          <div className="w-full shadow-md flex flex-col gap-4 items-center justify-start p-8 lg:p-16 bg-benzelBlueShade rounded-2xl">
             <Image
               src="/icons/construction-icon.png"
               alt="Construction Services"
@@ -120,83 +177,6 @@ export default function page() {
               the jobs, the successful scheduling, budgeting, construction site
               safety, availability and transportation of building materials,
               logistics and bidding.
-            </p>
-          </div>
-          <div className="w-full shadow-md flex flex-col gap-4 items-center justify-start p-8 sm:p-16 bg-benzelBlueShade rounded-2xl">
-            <Image
-              src="/icons/information-communication-icon.png"
-              alt="Information and Communication Technology Services"
-              width={128}
-              height={128}
-              className="w-[64px] md:w-32 md:h-32 h-[64px]"
-            />
-            <h4 className="text-white text-center text-lg md:text-2xl h-20 font-bold">
-              Information and Communication Technology
-            </h4>
-            <p className="w-fit text-pretty text-left text-primary-foreground text-base md:text-lg">
-              Our team of specialist Technicians and Systems Analyst are always
-              geared and on standby to offer the services to our clients. Our
-              services stretch from communication devices or applications
-              encompassing computers, network hardware, software, web
-              development, supply and delivery of ICT and related various
-              services and applications.
-            </p>
-          </div>
-          <div className="w-full shadow-md flex flex-col gap-4 items-center justify-start p-8 sm:p-16 bg-benzelBlueShade rounded-2xl">
-            <Image
-              src="/icons/import-and-export-icon.png"
-              alt="Import and Export Services"
-              width={128}
-              height={128}
-              className="w-[64px] md:w-32 md:h-32 h-[64px]"
-            />
-            <h4 className="text-white text-center text-lg md:text-2xl h-20 font-bold">
-              Import and Export
-            </h4>
-            <p className="w-fit text-pretty text-left text-primary-foreground text-base md:text-lg">
-              We are involved in helping our clients import and export their
-              products within and outside our borders. This is professionally
-              done with our team of experts.
-            </p>
-          </div>
-          <div className="w-full shadow-md flex flex-col gap-4 items-center justify-start p-8 sm:p-16 bg-benzelBlueShade rounded-2xl">
-            <Image
-              src="/icons/delivery-and-supply-icon.png"
-              alt="Supply and Delivery Services"
-              width={128}
-              height={128}
-              className="w-[64px] md:w-32 md:h-32 h-[64px]"
-            />
-            <h4 className="text-white text-center text-lg md:text-2xl h-20 font-bold">
-              Delivery and Supply of Various Products
-            </h4>
-            <p className="w-fit text-pretty text-left text-primary-foreground text-base md:text-lg">
-              We aim to deliver all standard requisitions within the stipulated
-              time of receipt of your orders. The supplies you need are
-              delivered directly to your door steps in the shortest delivery
-              period agreed. In this regard we are proudly Marce Fire Fighting
-              Manufacturers&apos; Namibia local partner. In this partnership, we
-              have successfully delivered Fire Fighting Trucks to Namibia
-              Airports Company and Ministry of Regional and Local Government
-            </p>
-          </div>
-          <div className="w-full shadow-md flex flex-col gap-4 items-center justify-start p-8 sm:p-16 bg-benzelBlueShade rounded-2xl">
-            <Image
-              src="/icons/solar-electricity-icon.png"
-              alt="Solar Electricity Services"
-              width={128}
-              height={128}
-              className="w-[64px] md:w-32 md:h-32 h-[64px]"
-            />
-            <h4 className="text-white text-center text-lg md:text-2xl h-20 font-bold">
-              Solar Electricity Generations
-            </h4>
-            <p className="w-fit text-pretty text-left text-primary-foreground text-base md:text-lg">
-              Our company, in partnership with international companies, have
-              also joined the Government&apos;s initiative in achieving the
-              objectives of vision 2030 by investing in solar energy generating
-              systes for cheap green electricity from sunlight. We also offer
-              services in Security, Investments, and Manufacturing.
             </p>
           </div>
         </div>

@@ -62,7 +62,10 @@ function ContactForm() {
   }
 
   return (
-    <div className="flex flex-col md:flex-row min-h-fit w-full items-center justify-center px-4 sm:px-[64px] lg:px-[100px] py-16 gap-16 relative">
+    <div
+      id="contact"
+      className="flex flex-col md:flex-row min-h-fit w-full items-center justify-center px-4 sm:px-[64px] lg:px-[100px] py-16 gap-16 relative"
+    >
       <Image
         src={"/CONTACT_US_BACKGROUND.jpg"}
         alt="Contact Us"
@@ -133,7 +136,7 @@ function ContactForm() {
           </div>
         </div>
       </div>
-      <div className="w-full">
+      <div className="w-full pb-8 md:pb-0">
         <Form {...form}>
           <form
             className="md:p-8 flex flex-col gap-4 w-full"
@@ -227,6 +230,9 @@ function ContactForm() {
             </Button>
           </form>
         </Form>
+      </div>
+      <div className="w-fit h-fit absolute -bottom-4 mx-auto text-sm text-center sm:text-xl lg:text-3xl text-primary-foreground font-semibold rounded-xl border border-b-[32px] border-b-benzelRed border-x-[25px] pb-2 border-transparent">
+        Nothing is more important than trading in goodfaith at all times!
       </div>
     </div>
   );

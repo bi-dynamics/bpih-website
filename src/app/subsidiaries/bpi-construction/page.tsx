@@ -11,7 +11,7 @@ export default function page() {
         </div>
 
         <h1 className="absolute text-5xl md:text-7xl font-bold p-4 sm:p-0">
-          BPI Construction
+          BPI Construction CC
         </h1>
       </header>
       <section className="w-full h-fit flex items-center justify-center md:px-[64px] lg:px-[100px]">
@@ -143,7 +143,7 @@ export default function page() {
               className="w-[64px] md:w-32 md:h-32 h-[64px]"
             />
             <h4 className="text-white text-center text-lg md:text-2xl h-20 font-bold">
-              Plumbing and Joinery Services
+              Plumbing and pipe fitting Services
             </h4>
             <ul className="w-full pl-4 max-w-screen-lg text-pretty text-left text-primary-foreground text-base md:text-lg">
               <li className=" list-disc">Water soak-away</li>

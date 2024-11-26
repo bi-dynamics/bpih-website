@@ -11,7 +11,7 @@ export default function page() {
         </div>
 
         <h1 className="absolute text-5xl md:text-7xl font-bold p-4 sm:p-0">
-          BPI Energy Solutions
+          BPI Energy Solutions (Pty) Ltd
         </h1>
       </header>
       <section className="w-full h-fit flex items-center justify-center md:px-[64px] lg:px-[100px]">
@@ -31,11 +31,11 @@ export default function page() {
             A subsidiary of BPIH, which was incorporated in 2017 with a
             registration number 2017/1120, is a company involved in Energy and
             all related business, PV Solar farms, wind energy, Biomass energy
-            and supply of solar PV parts. Benzel and Partners investments (Pty)
-            Ltd through BPI Energy Solutions (Pty) Ltd, where it has a 100%
-            controlling stake, is owning 5MW through an SPV called Ejuva One
-            Solar Energy (Pty) Ltd. The solar farm s situated in Gobabis town,
-            Omaheke Region.
+            and supply of solar PV parts. BPI Energy Solutions has a 34% share
+            of the 5MW through a SPV called Ejuva One Solar Enegy (Pty) Ltd.
+            Benzel and Partners has got 100% controlling stake in BPI Energy
+            Solution. The solar farm is situated in Gobabis town, Omaheke
+            Region.
             <br />
             <br />
             <div className="flex flex-col sm:flex-row w-full items-start justify-between gap-16 ">

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Download } from "lucide-react";
+import { ArrowRight, Download } from "lucide-react";
 import Link from "next/link";
 import AboutImage from "../../public/about-bpih.jpg";
 import Subsidiaries from "../components/Subsidiaries";
@@ -23,7 +23,7 @@ export default function Home() {
           src={"/HERO_BACKGROUND.jpg"}
           alt="Hero background image"
           fill
-          className="absolute -z-10 object-cover filter contrast-125 brightness-75 blur-[4px] sm:blur-[2px]"
+          className="absolute -z-10 object-cover filter contrast-125 brightness-75 blur-[4px] sm:blur-0"
         />
         <div className="w-full px-4 md:px-[64px] lg:px-[100px] flex flex-col gap-4 items-center sm:items-start">
           <h1 className=" text-7xl font-bold tracking-tight text-center sm:text-left">
@@ -68,8 +68,12 @@ export default function Home() {
             market.
           </p>
           <Button className="w-fit rounded-full py-[32px] px-[18px]" size="lg">
-            <Link className="text-base font-medium" href="/about-us">
+            <Link
+              className="text-base font-medium flex gap-1 group"
+              href="/about-us"
+            >
               About Us
+              <ArrowRight className="group-hover:translate-x-1 transition-transform" />
             </Link>
           </Button>
         </div>

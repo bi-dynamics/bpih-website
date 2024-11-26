@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { ArrowRight } from "lucide-react";
 
 const subsidiaries: {
   logo: string;
@@ -22,17 +23,26 @@ const subsidiaries: {
     href: "/subsidiaries/benzel-and-partners-investments",
   },
   {
-    logo: "/bpi-consultants-logo.png",
-    title: "BPI CONSULTANTS",
-    title_color: "text-benzelPurple",
-    bg_color: "bg-benzelPurple",
+    logo: "/bpi-technologies-logo.png",
+    title: "BPI Information Technologies CC",
+    title_color: "text-benzelOrange",
+    bg_color: "bg-benzelOrange",
     description:
-      "BPI Consultants offer a suite of expert advisory services tailored to the unique needs of our clients. Our highly skilled teams possess in-depth knowledge across various fields, including finance, accounting, information technology, human resources, and corporate advisory.",
-    href: "/subsidiaries/bpi-consultants",
+      "BPI Information Technology is a leading IT solutions provider. We offer software development, IT consulting, network solutions, and cybersecurity services. Our team delivers innovative solutions, empowering businesses to achieve their goals.",
+    href: "/subsidiaries/bpi-information-technologies",
+  },
+  {
+    logo: "/bpi-supplies-logo.png",
+    title: "BPI Supply Autotrader CC",
+    title_color: "text-benzelTeal",
+    bg_color: "bg-benzelTeal",
+    description:
+      "Our specialized supply chain solutions provider, offering unique expertise in services including import/export, fuel and oil supply, general merchandise trading, and product delivery. Our team ensures efficient and reliable supply chain operations.",
+    href: "/subsidiaries/bpi-supply-autotrader",
   },
   {
     logo: "/bpi-energy-solutions.png",
-    title: "BPI Energy Solutions",
+    title: "BPI Energy Solutions (Pty) Ltd",
     title_color: "text-benzelYellow",
     bg_color: "bg-benzelYellow",
     description:
@@ -41,7 +51,7 @@ const subsidiaries: {
   },
   {
     logo: "/bpi-construction-logo.png",
-    title: "BPI CONSTRUCTION",
+    title: "BPI Construction CC",
     title_color: "text-benzelRed",
     bg_color: "bg-benzelRed",
     description:
@@ -49,22 +59,13 @@ const subsidiaries: {
     href: "/subsidiaries/bpi-construction",
   },
   {
-    logo: "/bpi-supplies-logo.png",
-    title: "BPI SUPPLIES",
-    title_color: "text-benzelTeal",
-    bg_color: "bg-benzelTeal",
+    logo: "/bpi-consultants-logo.png",
+    title: "BPI General Trading CC",
+    title_color: "text-benzelPurple",
+    bg_color: "bg-benzelPurple",
     description:
-      "Our specialized supply chain solutions provider, offering unique expertise in services including import/export, fuel and oil supply, general merchandise trading, and product delivery. Our team ensures efficient and reliable supply chain operations.",
-    href: "/subsidiaries/bpi-supplies",
-  },
-  {
-    logo: "/bpi-technologies-logo.png",
-    title: "BPI INFORMATION TECHNOLOGIES",
-    title_color: "text-benzelOrange",
-    bg_color: "bg-benzelOrange",
-    description:
-      "BPI Information Technology is a leading IT solutions provider. We offer software development, IT consulting, network solutions, and cybersecurity services. Our team delivers innovative solutions, empowering businesses to achieve their goals.",
-    href: "/subsidiaries/bpi-information-technologies",
+      "BPI General Trading CC offer a suite of expert advisory services tailored to the unique needs of our clients. Our highly skilled teams possess in-depth knowledge across various fields, including finance, accounting, information technology, human resources, and corporate advisory.",
+    href: "/subsidiaries/bpi-general-trading",
   },
 ];
 
@@ -103,9 +104,10 @@ export default function Subsidiaries() {
             <Link
               key={index}
               href={subsidiary.href}
-              className={`w-fit ${subsidiary.bg_color} mt-8 rounded-full text-base flex items-center justify-center gap-2 px-[32px] py-[18px] font-medium`}
+              className={`w-fit ${subsidiary.bg_color} mt-8 rounded-full text-base flex hover:brightness-90 transition-all group items-center justify-center gap-2 px-[32px] py-[18px] font-medium`}
             >
               Learn More
+              <ArrowRight className="group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>
         ))}

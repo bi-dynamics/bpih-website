@@ -51,9 +51,10 @@ export default function page() {
             industrial to commercial, with all these different portfolios
             falling under its subsidiaries, namely{" "}
             <span className="font-semibold">
-              Benzel and Partners Investments(Pty)Ltd, B.P.I Supplies Cc, B.P.I
-              Technologies Cc, B.P.I Construction Cc, B.P.I Consultants Cc and
-              Bach Street Investments Number Ten Cc.
+              Benzel and Partners Investments (Pty) Ltd, B.P.I Technologies CC,
+              B.P.I Energy Solutions CC, B.P.I Construction CC, B.P.I Supply
+              Autotrader CC, B.P.I Consultants CC and Bach Street Investments
+              Number Ten Cc.
             </span>
             <br />
             <br /> Operating in different socio economic and political

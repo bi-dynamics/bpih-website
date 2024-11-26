@@ -11,7 +11,7 @@ export default function page() {
         </div>
 
         <h1 className="absolute text-5xl md:text-7xl font-bold p-4 sm:p-0">
-          BPI CONSULTANTS
+          BPI General Trading CC
         </h1>
       </header>
       <section className="w-full h-fit flex items-center justify-center md:px-[64px] lg:px-[100px]">
@@ -24,17 +24,17 @@ export default function page() {
               <ArrowLeft /> Back to Subsidiaries
             </Link>
             <h2 className=" text-3xl md:text-5xl text-benzelBlue font-semibold">
-              BPI Consultants CC
+              BPI General Trading CC
             </h2>
           </div>
           <div className=" text-base md:text-lg text-slate-500 text-justify">
-            B.P.I Consultants was founded in 2012 with registration number
-            CC/2012/4902. It is also another arm of BPIH which specializes in
-            providing professional advice to client companies. It is manned by
-            highly qualified consulting team in various fields including
-            finance, accounting, information technology, human resources,
-            corporate advisory services and other related services. The
-            subsidiary came into being after evaluating the need for the
+            B.P.I General Trading CC was founded in 2012 with registration
+            number CC/2012/4902. It is also another arm of BPIH which
+            specializes in providing professional advice to client companies. It
+            is manned by highly qualified consulting team in various fields
+            including finance, accounting, information technology, human
+            resources, corporate advisory services and other related services.
+            The subsidiary came into being after evaluating the need for the
             provision of offering training to the end user after delivery and
             supply of our products hence reduction in maintenance cost because
             of lack of technical know-how to the end user. We are not limited
