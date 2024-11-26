@@ -93,10 +93,10 @@ export default function page() {
                 acquisition and disposal. Fleet management helps to ensure that
                 a fleet is meeting compliance requirements, continuosly
                 improving efficiencies and reducing costs. GPS tracking involvs
-                a network of satellites that triangulate a trackable device's
-                location, movement, and speed. These trackable devices are
-                installed in vehicles or can be help in your hand like a
-                cellphone.
+                a network of satellites that triangulate a trackable
+                device&apos;s location, movement, and speed. These trackable
+                devices are installed in vehicles or can be help in your hand
+                like a cellphone.
               </p>
               <div className="relative w-1/3 md:w-2/3 aspect-square h-auto">
                 <Image
