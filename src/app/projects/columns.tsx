@@ -30,12 +30,12 @@ export const data: Project[] = [
   },
   {
     id: "2",
-    name: "Consultancy and Integration Services for Enterprise Data Warehousing for MTC",
+    name: "Consultancy and Integration Services for Enterprise Data Warehousing",
     dateCompleted: "In Progress",
   },
   {
     id: "3",
-    name: "Supply, Delivery Integration Services for Enterprise Data Warehousing for MTC",
+    name: "Supply, Delivery Integration Services for Enterprise Data Warehousing",
     dateCompleted: "In Progress",
   },
   {
@@ -50,7 +50,7 @@ export const data: Project[] = [
   },
   {
     id: "6",
-    name: "Redesign and configuration of data Centre phase 1 & 2 at Office of the prime Minister and supply and delivery of switches",
+    name: "Redesign and configuration of data Centre phase 1 & 2 at Office of the Prime Minister and supply and delivery of switches to government offices",
     dateCompleted: "February 2022",
   },
   {
