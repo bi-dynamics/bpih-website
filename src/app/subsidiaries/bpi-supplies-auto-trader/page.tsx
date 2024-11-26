@@ -11,7 +11,7 @@ export default function page() {
         </div>
 
         <h1 className="absolute text-5xl md:text-7xl font-bold p-4 sm:p-0">
-          BPI Supply Autotrader CC
+          BPI Supplies Auto Trader CC
         </h1>
       </header>
       <section className="w-full h-fit flex items-center justify-center md:px-[64px] lg:px-[100px]">
@@ -24,29 +24,29 @@ export default function page() {
               <ArrowLeft /> Back to Subsidiaries
             </Link>
             <h2 className=" text-3xl md:text-5xl text-benzelBlue font-semibold">
-              BPI Supply Autrotrader CC
+              BPI Supplies Autro Trader CC
             </h2>
           </div>
           <div className=" text-base md:text-lg text-slate-500 text-justify">
             A subsidiary of BPIH, it was incorporated in 2012 with registration
-            number CC/2012/5012. B.P.I Supply Autotrader has unique expertise in
-            delivery and supply of various products. Our expertise ranges from
-            import and export, trading, supply and delivery of various products,
-            and other related services. B.P.I Supply Autotrader CC understands
-            that material supplies are catalyst for economic growth. Material
-            suppliers ensures that our primary industries are functional and
-            operate smoothly, thus ensures optimal production. We at B.P.I
-            Supply Autotrader have taken up the challenge and have made a
-            strategic decision to operate in both the upstream and downstream in
-            terms of exploring all the avenues in the economy. We consistently
-            seek to engage and partner up with capable local, regional and
-            International partners in order to cater for the ever increasing
-            demand for material in our economy. Having been recognized by many
-            organizations at the best preferred supplier, we do not hesitate to
-            mention these organizations such as Ministry of education and Kunene
-            regional council where we have supplied promotional and corporate
-            wear, We have also supplied Fencing materials to the Ministry of
-            Agriculture, Water and Forestry.
+            number CC/2012/5012. B.P.I Supplies Auto Trader has unique expertise
+            in delivery and supply of various products. Our expertise ranges
+            from import and export, trading, supply and delivery of various
+            products, and other related services. B.P.I Supplies Auto Trader CC
+            understands that material supplies are catalyst for economic growth.
+            Material suppliers ensures that our primary industries are
+            functional and operate smoothly, thus ensures optimal production. We
+            at B.P.I Supplies Auto Trader have taken up the challenge and have
+            made a strategic decision to operate in both the upstream and
+            downstream in terms of exploring all the avenues in the economy. We
+            consistently seek to engage and partner up with capable local,
+            regional and International partners in order to cater for the ever
+            increasing demand for material in our economy. Having been
+            recognized by many organizations at the best preferred supplier, we
+            do not hesitate to mention these organizations such as Ministry of
+            education and Kunene regional council where we have supplied
+            promotional and corporate wear, We have also supplied Fencing
+            materials to the Ministry of Agriculture, Water and Forestry.
             <br />
             <br />
             <div className="flex flex-col sm:flex-row w-full items-start justify-between gap-16 ">

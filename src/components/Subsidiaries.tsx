@@ -33,12 +33,12 @@ const subsidiaries: {
   },
   {
     logo: "/bpi-supplies-logo.png",
-    title: "BPI Supply Autotrader CC",
+    title: "BPI Supplies Auto Trader CC",
     title_color: "text-benzelTeal",
     bg_color: "bg-benzelTeal",
     description:
       "Our specialized supply chain solutions provider, offering unique expertise in services including import/export, fuel and oil supply, general merchandise trading, and product delivery. Our team ensures efficient and reliable supply chain operations.",
-    href: "/subsidiaries/bpi-supply-autotrader",
+    href: "/subsidiaries/bpi-supplies-auto-trader",
   },
   {
     logo: "/bpi-energy-solutions.png",

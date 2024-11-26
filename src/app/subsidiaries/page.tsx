@@ -40,12 +40,12 @@ const subsidiaries: {
   },
   {
     logo: "/bpi-supplies-logo.png",
-    title: "BPI Supply Autotrader CC",
+    title: "BPI Supplies Auto Trader CC",
     title_color: "text-benzelTeal",
     bg_color: "bg-benzelTeal",
     description:
       "Has a long history of buying, supply and delivery of various products from domestic, industrial to commercial products.",
-    href: "bpi-supply-autotrader",
+    href: "bpi-supplies-auto-trader",
   },
   {
     logo: "/bpi-energy-solutions.png",

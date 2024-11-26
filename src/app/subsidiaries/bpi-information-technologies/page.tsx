@@ -92,7 +92,7 @@ export default function page() {
                 proper asset management, dispatch and routing, and vehicle
                 acquisition and disposal. Fleet management helps to ensure that
                 a fleet is meeting compliance requirements, continuosly
-                improving efficiencies and reducing costs. GPS tracking involvs
+                improving efficiencies and reducing costs. GPS tracking involves
                 a network of satellites that triangulate a trackable
                 device&apos;s location, movement, and speed. These trackable
                 devices are installed in vehicles or can be help in your hand

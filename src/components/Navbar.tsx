@@ -65,7 +65,7 @@ const hyperlinks: hyperlinksType[] = [
       },
       {
         title: "BPI Supply Autotrader",
-        href: "/subsidiaries/bpi-supply-autotrader",
+        href: "/subsidiaries/bpi-supplies-auto-trader",
       },
       {
         title: "BPI Information Technology",
@@ -112,13 +112,15 @@ export default function Navbar() {
         </div>
       </div>
       <div className="md:px-[64px] lg:px-[100px] px-4 sm:px-[64px] py-4 flex justify-between items-center">
-        <Image
-          src={BPIH_LOGO}
-          alt="BPIH LOGO"
-          height={151}
-          width={759}
-          className="w-full max-w-80 h-auto"
-        />
+        <Link href="/">
+          <Image
+            src={BPIH_LOGO}
+            alt="BPIH LOGO"
+            height={151}
+            width={759}
+            className="w-full max-w-80 h-auto"
+          />
+        </Link>
         <div className="flex gap-4 items-center">
           {hyperlinks.map((link, index) => {
             if (link.dropdown) {
