@@ -231,8 +231,8 @@ function ContactForm() {
           </form>
         </Form>
       </div>
-      <div className="w-fit h-fit absolute -bottom-4 mx-auto text-sm text-center sm:text-xl lg:text-3xl text-primary-foreground font-semibold rounded-xl border border-b-[32px] border-b-benzelRed border-x-[25px] pb-2 border-transparent">
-        Nothing is more important than trading in goodfaith at all times!
+      <div className="w-fit h-fit absolute -bottom-4 mx-auto text-sm text-center sm:text-base lg:text-xl text-primary-foreground font-semibold rounded-xl border border-b-[32px] border-b-benzelRed border-x-[25px] pb-2 border-transparent">
+        Nothing is more important than trading in good faith at all times!
       </div>
     </div>
   );
