@@ -41,7 +41,7 @@ const subsidiaries: {
     href: "/subsidiaries/bpi-supply-autotrader",
   },
   {
-    logo: "/bpi-energy-solutions.png",
+    logo: "/bpi-energy-solutions-logo.png",
     title: "BPI Energy Solutions (Pty) Ltd",
     title_color: "text-benzelYellow",
     bg_color: "bg-benzelYellow",
