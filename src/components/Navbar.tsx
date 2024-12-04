@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import BPIH_LOGO from "../../public/BPIH-LOGO.png";
+import BPIH_LOGO from "../../public/benzel-and-partners-investment-holdings-logo.png";
 import BPIH_LOGO_MOBILE from "../../public/BPIH-LOGO-MOBILE.png";
 
 import Link from "next/link";
@@ -89,7 +89,7 @@ export default function Navbar() {
 
   const isDesktop = useMediaQuery("(min-width: 769px)");
   return isDesktop ? (
-    <nav className="sticky top-0 z-50 bg-benzelBlue w-full h-fit shadow-lg">
+    <nav className="sticky top-0 z-50 bg-[#f2f2f2] w-full h-fit shadow-lg">
       <div className="w-full md:flex hidden justify-end gap-4 bg-benzelBlueShade p-2 md:px-[64px] lg:px-[100px]">
         <p className="text-sm ">Have any questions?</p>
         <div className="flex items-center gap-1">
@@ -115,11 +115,11 @@ export default function Navbar() {
         <Image
           src={BPIH_LOGO}
           alt="BPIH LOGO"
-          height={151}
-          width={759}
-          className="w-full max-w-80 h-auto"
+          height={1454}
+          width={2641}
+          className="w-full max-w-32 h-auto"
         />
-        <div className="flex gap-4 items-center">
+        <div className="flex gap-4 items-center text-benzelBlue">
           {hyperlinks.map((link, index) => {
             if (link.dropdown) {
               return (
@@ -131,11 +131,11 @@ export default function Navbar() {
                     {link.title}
                     <ChevronDown
                       size={24}
-                      className="m-2 text-benzelRed"
+                      className="text-benzelRed"
                       onClick={() => setOpenDropdown((prev) => !prev)}
                     />
                   </Link>
-                  <ul className="md:group-hover:block transition-all text-sm absolute hidden bg-benzelBlueShade w-64 space-y-2 py-4 p-2 rounded-md">
+                  <ul className="md:group-hover:block transition-all text-sm absolute hidden bg-benzelBlueShade text-white w-64 space-y-2 py-4 p-2 rounded-md">
                     {link.dropdown?.map((dropdownLink, dropdownIndex) => {
                       return (
                         <Link

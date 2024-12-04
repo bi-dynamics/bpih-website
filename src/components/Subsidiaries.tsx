@@ -32,8 +32,8 @@ const subsidiaries: {
     href: "/subsidiaries/bpi-information-technologies",
   },
   {
-    logo: "/bpi-supplies-logo.png",
-    title: "BPI Supply Autotrader CC",
+    logo: "/bpi-supplies-autotrader-logo.png",
+    title: "BPI Supplies Autotrader CC",
     title_color: "text-benzelTeal",
     bg_color: "bg-benzelTeal",
     description:
@@ -59,7 +59,7 @@ const subsidiaries: {
     href: "/subsidiaries/bpi-construction",
   },
   {
-    logo: "/bpi-consultants-logo.png",
+    logo: "/bpi-general-trading-logo.png",
     title: "BPI General Trading CC",
     title_color: "text-benzelPurple",
     bg_color: "bg-benzelPurple",
@@ -82,8 +82,9 @@ export default function Subsidiaries() {
             <Image
               src={subsidiary.logo}
               alt={subsidiary.title!}
-              width={120}
-              height={120}
+              width={128}
+              height={128}
+              className="h-1/4 object-contain"
             />
             <h3
               className={`text-2xl ${subsidiary.title_color} font-semibold w-full h-1/5`}
@@ -98,7 +99,7 @@ export default function Subsidiaries() {
                 subsidiary.title
               )}
             </h3>
-            <p className="text-sm text-black w-full">
+            <p className="text-base text-slate-500 flex-grow w-full">
               {subsidiary.description}
             </p>
             <Link
