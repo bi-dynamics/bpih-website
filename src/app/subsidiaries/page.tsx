@@ -1,3 +1,4 @@
+import { ArrowRight } from "lucide-react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -26,7 +27,7 @@ const subsidiaries: {
     title_color: "text-benzelBurgundy",
     bg_color: "bg-benzelBurgundy",
     description:
-      "Has a long history of buying, supply and delivery of various products from domestic, industrial to commercial products.",
+      "A seasoned procurement and supply chain solutions provider, with a rich history of sourcing and delivering a wide range of products for domestic, industrial, and commercial applications.",
     href: "benzel-and-partners-investments",
   },
   {
@@ -35,16 +36,16 @@ const subsidiaries: {
     title_color: "text-benzelOrange",
     bg_color: "bg-benzelOrange",
     description:
-      "Has a long history of buying, supply and delivery of various products from domestic, industrial to commercial products.",
+      "BPI Information Technology is a leading IT solutions provider. We offer software development, IT consulting, network solutions, and cybersecurity services. Our team delivers innovative solutions, empowering businesses to achieve their goals.",
     href: "bpi-information-technologies",
   },
   {
-    logo: "/bpi-supplies-logo.png",
+    logo: "/bpi-supplies-autotrader-logo.png",
     title: "BPI Supplies Auto Trader CC",
     title_color: "text-benzelTeal",
     bg_color: "bg-benzelTeal",
     description:
-      "Has a long history of buying, supply and delivery of various products from domestic, industrial to commercial products.",
+      "Our specialized supply chain solutions provider, offering unique expertise in services including import/export, fuel and oil supply, general merchandise trading, and product delivery. Our team ensures efficient and reliable supply chain operations.",
     href: "bpi-supplies-auto-trader",
   },
   {
@@ -53,7 +54,7 @@ const subsidiaries: {
     title_color: "text-benzelYellow",
     bg_color: "bg-benzelYellow",
     description:
-      "Has a long history of buying, supply and delivery of various products from domestic, industrial to commercial products.",
+      "A diversified energy solutions provider, with a strategic 34% stake in Ejuve One Solar Energy (Pty) Ltd. This significant investment enables the production of 5MW of clean solar energy in Gobabis, Omakeke region. In addition to solar energy, BPI Energy Solutions is actively exploring opportunities in wind energy, biomass, and mineral resources, while also supplying high-quality solar PV components.",
     href: "bpi-energy-solutions",
   },
   {
@@ -62,16 +63,16 @@ const subsidiaries: {
     title_color: "text-benzelRed",
     bg_color: "bg-benzelRed",
     description:
-      "Has a long history of buying, supply and delivery of various products from domestic, industrial to commercial products.",
+      "A comprehensive construction solutions provider, specializing in the delivery of high-quality domestic, industrial, and commercial building projects. Our services encompass a wide range of construction activities, including renovations, welding, plumbing, electrical installations, and more.",
     href: "bpi-construction",
   },
   {
-    logo: "/bpi-consultants-logo.png",
+    logo: "/bpi-general-trading-logo.png",
     title: "BPI General Trading CC",
     title_color: "text-benzelPurple",
     bg_color: "bg-benzelPurple",
     description:
-      "Has a long history of buying, supply and delivery of various products from domestic, industrial to commercial products.",
+      "BPI General Trading CC offer a suite of expert advisory services tailored to the unique needs of our clients. Our highly skilled teams possess in-depth knowledge across various fields, including finance, accounting, information technology, human resources, and corporate advisory.",
     href: "bpi-general-trading",
   },
 ];
@@ -99,11 +100,12 @@ export default function page() {
                 alt={
                   subsidiary.title ? subsidiary.title : subsidiary.title_part1!
                 }
-                width={120}
-                height={120}
+                width={128}
+                height={128}
+                className="h-1/4 object-contain"
               />
               <h3
-                className={`text-2xl ${subsidiary.title_color} font-semibold w-full h-1/5`}
+                className={`text-2xl ${subsidiary.title_color} font-semibold w-full h-fit`}
               >
                 {subsidiary.title_part1 ? (
                   <>
@@ -115,15 +117,16 @@ export default function page() {
                   subsidiary.title
                 )}
               </h3>
-              <p className="text-base text-slate-500 w-full">
+              <p className="text-base text-slate-500 flex-grow w-full">
                 {subsidiary.description}
               </p>
               <Link
                 key={index}
-                href={`subsidiaries/${subsidiary.href}`}
-                className={`w-fit ${subsidiary.bg_color} mt-8 rounded-full text-base flex items-center justify-center gap-2 px-[32px] py-[18px] font-medium`}
+                href={subsidiary.href}
+                className={`w-fit ${subsidiary.bg_color} mt-8 rounded-full text-base flex hover:brightness-90 transition-all group items-center justify-center gap-2 px-[32px] py-[18px] font-medium`}
               >
                 Learn More
+                <ArrowRight className="group-hover:translate-x-1 transition-transform" />
               </Link>
             </div>
           ))}
