@@ -26,10 +26,10 @@ export default function Home() {
           className="absolute -z-10 object-cover filter contrast-125 brightness-75 blur-[4px] sm:blur-0"
         />
         <div className="w-full px-4 md:px-[64px] lg:px-[100px] flex flex-col gap-4 items-center sm:items-start">
-          <h1 className=" text-7xl font-bold tracking-tight text-center sm:text-left">
+          <h1 className=" text-7xl sm:text-8xl font-bold tracking-tight text-center sm:text-left">
             <span className="text-benzelRed">BUSINESS</span> AND IT WORLD
           </h1>
-          <p className="text-2xl text-pretty font-medium text-center sm:text-left">
+          <p className="text-2xl sm:text-3xl md:text-4xl text-pretty font-medium text-center sm:text-left">
             BPIH strives to be the most compliant company <br /> in product and
             service delivery.
           </p>
