@@ -1,6 +1,8 @@
 import { ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { DataTable } from "./data-table";
+import { columns, data } from "./columns";
 
 export default function page() {
   return (
@@ -24,29 +26,29 @@ export default function page() {
               <ArrowLeft /> Back to Subsidiaries
             </Link>
             <h2 className=" text-3xl md:text-5xl text-benzelBlue font-semibold">
-              BPI Supplies Autro Trader CC
+              BPI Supplies Auto Trader CC
             </h2>
           </div>
           <div className=" text-base md:text-lg text-slate-500 text-justify">
-            A subsidiary of BPIH, it was incorporated in 2012 with registration
-            number CC/2012/5012. B.P.I Supplies Auto Trader has unique expertise
-            in delivery and supply of various products. Our expertise ranges
-            from import and export, trading, supply and delivery of various
-            products, and other related services. B.P.I Supplies Auto Trader CC
-            understands that material supplies are catalyst for economic growth.
-            Material suppliers ensures that our primary industries are
-            functional and operate smoothly, thus ensures optimal production. We
-            at B.P.I Supplies Auto Trader have taken up the challenge and have
-            made a strategic decision to operate in both the upstream and
-            downstream in terms of exploring all the avenues in the economy. We
-            consistently seek to engage and partner up with capable local,
-            regional and International partners in order to cater for the ever
-            increasing demand for material in our economy. Having been
-            recognized by many organizations at the best preferred supplier, we
-            do not hesitate to mention these organizations such as Ministry of
-            education and Kunene regional council where we have supplied
-            promotional and corporate wear, We have also supplied Fencing
-            materials to the Ministry of Agriculture, Water and Forestry.
+            was incorporated in 2012 with registration number CC/2012/5012.
+            B.P.I Supplies Auto Trader has unique expertise in delivery and
+            supply of various products. Our expertise ranges from import and
+            export, trading, supply and delivery of various products, and other
+            related services. B.P.I Supplies Auto Trader CC understands that
+            material supplies are catalyst for economic growth. Material
+            suppliers ensures that our primary industries are functional and
+            operate smoothly, thus ensures optimal production. We at B.P.I
+            Supplies Auto Trader have taken up the challenge and have made a
+            strategic decision to operate in both the upstream and downstream in
+            terms of exploring all the avenues in the economy. We consistently
+            seek to engage and partner up with capable local, regional and
+            International partners in order to cater for the ever increasing
+            demand for material in our economy. Having been recognized by many
+            organizations at the best preferred supplier, we do not hesitate to
+            mention these organizations such as Ministry of education and Kunene
+            regional council where we have supplied promotional and corporate
+            wear, We have also supplied Fencing materials to the Ministry of
+            Agriculture, Water and Forestry.
             <br />
             <br />
             <div className="flex flex-col sm:flex-row w-full items-start justify-between gap-16 ">
@@ -61,7 +63,7 @@ export default function page() {
               <div className="relative w-full sm:w-1/3 aspect-square h-auto">
                 <Image
                   src="/bpi-supplies-logo.png"
-                  alt="BPI Supplies CC logo"
+                  alt="BPI Supplies logo"
                   className="object-contain object-center"
                   fill
                 />
@@ -134,6 +136,12 @@ export default function page() {
             </ul>
           </div>
         </div>
+      </section>
+      <section className="w-full h-fit flex flex-col items-center justify-center  sm:px-[64px] lg:px-[100px] py-16 gap-16">
+        <h3 className=" text-3xl md:text-5xl text-benzelBlue font-semibold">
+          Projects
+        </h3>
+        <DataTable columns={columns} data={data} />
       </section>
     </div>
   );

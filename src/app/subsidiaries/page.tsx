@@ -1,3 +1,4 @@
+import Subsidiaries from "@/components/Subsidiaries";
 import { ArrowRight } from "lucide-react";
 import { Metadata } from "next";
 import Image from "next/image";
@@ -88,7 +89,8 @@ export default function page() {
           Subsidiaries
         </h1>
       </header>
-      <section className="w-full bg-slate-100 h-fit flex flex-col items-start justify-center  md:px-[64px] lg:px-[100px] sm:py-32 gap-8">
+      <Subsidiaries />
+      {/* <section className="w-full bg-slate-100 h-fit flex flex-col items-start justify-center  md:px-[64px] lg:px-[100px] sm:py-32 gap-8">
         <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
           {subsidiaries.map((subsidiary, index) => (
             <div
@@ -131,7 +133,7 @@ export default function page() {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

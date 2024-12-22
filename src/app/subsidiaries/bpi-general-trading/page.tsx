@@ -54,8 +54,8 @@ export default function page() {
               </p>
               <div className="relative w-1/3 aspect-square h-auto">
                 <Image
-                  src="/bpi-consultants-logo.png"
-                  alt="About BPIH"
+                  src="/bpi-general-trading-logo.png"
+                  alt="BPI GENERAL TRADING LOGO"
                   className="object-contain object-center"
                   fill
                 />

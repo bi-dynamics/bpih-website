@@ -1,6 +1,9 @@
+import Navbar from "@/components/Navbar";
 import { ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { DataTable } from "./data-table";
+import { columns, data } from "./columns";
 
 export default function page() {
   return (
@@ -29,9 +32,9 @@ export default function page() {
             </h2>
           </div>
           <div className=" text-base md:text-lg text-slate-500 text-justify">
-            It is also involved in construction, information technology,
+            is also involved in construction, information technology,
             manufacturing, import and export of various goods with different
-            size and magnitude, general consultants, printing and other related
+            size and magnitude, general consultancy, printing and other related
             services.
             <br />
             <br />
@@ -83,7 +86,7 @@ export default function page() {
               <div className="relative w-full md:w-1/3 aspect-square h-auto">
                 <Image
                   src="/benzel-and-partners-investments.png"
-                  alt="About BPIH"
+                  alt="BENZEL AND PARTNERS INVESTMENTS LOGO"
                   className="object-contain object-center"
                   fill
                 />
@@ -180,6 +183,12 @@ export default function page() {
             </p>
           </div>
         </div>
+      </section>
+      <section className="w-full h-fit flex flex-col items-center justify-center  sm:px-[64px] lg:px-[100px] py-16 gap-16">
+        <h3 className=" text-3xl md:text-5xl text-benzelBlue font-semibold">
+          Projects
+        </h3>
+        <DataTable columns={columns} data={data} />
       </section>
     </div>
   );

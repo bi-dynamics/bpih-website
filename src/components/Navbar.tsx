@@ -1,16 +1,27 @@
 "use client";
 
-import Image from "next/image";
-import BPIH_LOGO from "../../public/benzel-and-partners-investment-holdings-logo.png";
+import Image, { StaticImageData } from "next/image";
+import BPIH_LOGO from "./../../public/benzel-and-partners-investment-holdings-logo.png";
+import Benzel_And_Partners_Logo from "./../../public/benzel-and-partners-investments.png";
+import BPI_IT_LOGO from "./../../public/bpi-technologies-logo.png";
+import BPI_SUPPLIES_LOGO from "./../../public/bpi-supplies-autotrader-logo.png";
+import BPI_ENERGY_LOGO from "./../../public/bpi-energy-solutions-logo.png";
+import BPI_CONSTRUCTION_LOGO from "./../../public/bpi-construction-logo.png";
+import BPI_GENERAL_LOGO from "./../../public/bpi-general-trading-logo.png";
+
+import BPI_TECH_LOGO from "./../../public/bpi-technologies-logo.png";
 import BPIH_LOGO_MOBILE from "../../public/BPIH-LOGO-MOBILE.png";
 
 import Link from "next/link";
 import {
   ChevronDown,
   ChevronUp,
+  Locate,
   Mail,
+  MapPin,
   MenuIcon,
   Phone,
+  Pin,
   XIcon,
 } from "lucide-react";
 import { Button } from "./ui/button";
@@ -26,6 +37,7 @@ import {
   DrawerTrigger,
 } from "./ui/drawer";
 import { useState } from "react";
+import { usePathname, useRouter } from "next/navigation";
 
 interface hyperlinksType {
   title: string;
@@ -48,35 +60,32 @@ const hyperlinks: hyperlinksType[] = [
     href: "/subsidiaries",
     dropdown: [
       {
-        title: "Benzel & Partners Investments",
+        title: "Benzel & Partners Investments (Pty) Ltd",
         href: "/subsidiaries/benzel-and-partners-investments",
       },
       {
-        title: "BPI General Trading",
-        href: "/subsidiaries/bpi-general-trading",
+        title: "BPI Information Technology CC",
+        href: "/subsidiaries/bpi-information-technologies",
       },
       {
-        title: "BPI Energy Solutions",
-        href: "/subsidiaries/bpi-energy-solutions",
-      },
-      {
-        title: "BPI Construction",
-        href: "/subsidiaries/bpi-construction",
-      },
-      {
-        title: "BPI Supply Autotrader",
+        title: "BPI Supplies Auto Trader CC",
         href: "/subsidiaries/bpi-supplies-auto-trader",
       },
       {
-        title: "BPI Information Technology",
-        href: "/subsidiaries/bpi-information-technologies",
+        title: "BPI Energy Solutions (Pty) Ltd",
+        href: "/subsidiaries/bpi-energy-solutions",
+      },
+      {
+        title: "BPI Construction CC",
+        href: "/subsidiaries/bpi-construction",
+      },
+      {
+        title: "BPI General Trading CC",
+        href: "/subsidiaries/bpi-general-trading",
       },
     ],
   },
-  {
-    title: "PROJECTS",
-    href: "/projects",
-  },
+
   {
     title: "CONTACT US",
     href: "/#contact-us",
@@ -84,13 +93,38 @@ const hyperlinks: hyperlinksType[] = [
   },
 ];
 
+const logoPaths: Record<string, StaticImageData> = {
+  "/": BPIH_LOGO,
+  "/subsidiaries/benzel-and-partners-investments": Benzel_And_Partners_Logo,
+  "/subsidiaries/bpi-information-technologies": BPI_TECH_LOGO,
+  "/subsidiaries/bpi-supplies-auto-trader": BPI_SUPPLIES_LOGO,
+  "/subsidiaries/bpi-energy-solutions": BPI_ENERGY_LOGO,
+  "/subsidiaries/bpi-construction": BPI_CONSTRUCTION_LOGO,
+  "/subsidiaries/bpi-general-trading": BPI_GENERAL_LOGO,
+};
+
 export default function Navbar() {
   const [openDropdown, setOpenDropdown] = useState(false);
+
+  const currentPath = usePathname();
+
+  console.log(currentPath);
+
+  const logoSrc = logoPaths[currentPath] || BPIH_LOGO;
 
   const isDesktop = useMediaQuery("(min-width: 769px)");
   return isDesktop ? (
     <nav className="sticky top-0 z-50 bg-[#f2f2f2] w-full h-fit shadow-lg">
       <div className="w-full md:flex hidden justify-end gap-4 bg-benzelBlueShade p-2 md:px-[64px] lg:px-[100px]">
+        <div className="flex items-center gap-1">
+          <MapPin fill="white" stroke="var(--benzel-blue)" size={16} />{" "}
+          <Link
+            href="tel:+26461242038"
+            className=" text-sm hover:text-benzelRed transition-colors"
+          >
+            309 City Centre Building, Werner List Street, Windhoek
+          </Link>
+        </div>
         <p className="text-sm ">Have any questions?</p>
         <div className="flex items-center gap-1">
           <Phone fill="white" stroke="var(--benzel-blue)" size={16} />{" "}
@@ -114,7 +148,7 @@ export default function Navbar() {
       <div className="md:px-[64px] lg:px-[100px] px-4 sm:px-[64px] py-4 flex justify-between items-center">
         <Link href="/">
           <Image
-            src={BPIH_LOGO}
+            src={logoSrc}
             alt="BPIH LOGO"
             height={1454}
             width={2641}
@@ -137,7 +171,7 @@ export default function Navbar() {
                       onClick={() => setOpenDropdown((prev) => !prev)}
                     />
                   </Link>
-                  <ul className="md:group-hover:block transition-all text-white text-sm absolute hidden bg-benzelBlueShade w-64 space-y-2 py-4 p-2 rounded-md">
+                  <ul className="md:group-hover:block transition-all bg-[#f2f2f2] text-sm absolute hidden text-benzelBlue w-80 space-y-2 py-4 p-2 rounded-md">
                     {link.dropdown?.map((dropdownLink, dropdownIndex) => {
                       return (
                         <Link

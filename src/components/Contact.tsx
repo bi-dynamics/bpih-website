@@ -33,6 +33,9 @@ const formSchema = z.object({
     .min(2, {
       message: "Your name must be at least 2 letters.",
     }),
+  phoneNumber: z.number({
+    required_error: "please enter a valid phone number.",
+  }),
   emailAddress: z
     .string({
       required_error: "Please enter a valid email address.",
@@ -128,10 +131,7 @@ function ContactForm() {
               BUSINESS HOURS
             </div>
             <p className="text-primary-foreground/80 text-sm sm:text-base">
-              <span className="font-bold">Mon - Fri:</span> 8am - 5pm
-            </p>
-            <p className="text-primary-foreground/80 text-base">
-              <span className="font-bold">Sat - Sun:</span> CLOSED
+              AVAILABLE 24/7
             </p>
           </div>
         </div>
@@ -156,9 +156,29 @@ function ContactForm() {
                     <FormControl>
                       <Input
                         {...field}
-                        placeholder="John Doe"
+                        placeholder=""
                         type="text"
-                        className="bg-white"
+                        className="bg-white/80 text-black"
+                      />
+                    </FormControl>
+                    <FormMessage />
+                  </FormItem>
+                );
+              }}
+            />
+            <FormField
+              control={form.control}
+              name="phoneNumber"
+              render={({ field }) => {
+                return (
+                  <FormItem>
+                    <FormLabel>Phone number</FormLabel>
+                    <FormControl>
+                      <Input
+                        {...field}
+                        placeholder=""
+                        type="number"
+                        className="bg-white/80 text-black"
                       />
                     </FormControl>
                     <FormMessage />
@@ -176,9 +196,9 @@ function ContactForm() {
                     <FormControl>
                       <Input
                         {...field}
-                        placeholder="JohnDoe@gmail.com"
+                        placeholder=""
                         type="email"
-                        className="bg-white"
+                        className="bg-white/80 text-black"
                       />
                     </FormControl>
                     <FormMessage />
@@ -198,7 +218,7 @@ function ContactForm() {
                       defaultValue={field.value}
                     >
                       <FormControl>
-                        <SelectTrigger className="bg-white text-black">
+                        <SelectTrigger className="bg-white/80 text-black">
                           <SelectValue placeholder="Select a subject to discuss" />
                         </SelectTrigger>
                       </FormControl>
@@ -231,8 +251,9 @@ function ContactForm() {
           </form>
         </Form>
       </div>
-      <div className="w-fit h-fit absolute -bottom-4 mx-auto text-sm text-center sm:text-base lg:text-xl text-primary-foreground font-semibold rounded-xl border border-b-[32px] border-b-benzelRed border-x-[25px] pb-2 border-transparent">
-        Nothing is more important than trading in good faith at all times!
+      <div className="w-fit italic h-fit absolute -bottom-4 mx-auto text-sm text-center sm:text-base lg:text-xl text-primary-foreground font-semibold rounded-xl border border-b-[32px] border-b-benzelRed border-x-[25px] pb-2 border-transparent">
+        &quot;Nothing is more important than trading in good faith at all
+        times!&quot;
       </div>
     </div>
   );

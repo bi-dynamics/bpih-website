@@ -5,6 +5,7 @@ import AboutImage from "../../public/about-bpih.jpg";
 import Subsidiaries from "../components/Subsidiaries";
 import { Button } from "@/components/ui/button";
 import { Metadata } from "next";
+import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
   title: {

@@ -1,4 +1,7 @@
+import Navbar from "@/components/Navbar";
 import { ArrowLeft } from "lucide-react";
+import { columns, data } from "./columns";
+import { DataTable } from "./data-table";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -101,7 +104,7 @@ export default function page() {
               <div className="relative w-1/3 md:w-2/3 aspect-square h-auto">
                 <Image
                   src="/bpi-technologies-logo.png"
-                  alt="BPI Information Technologies CC logo"
+                  alt="BPI Information Technologies logo"
                   className="object-contain object-center"
                   fill
                 />
@@ -268,6 +271,12 @@ export default function page() {
             </p>
           </div>
         </div>
+      </section>
+      <section className="w-full h-fit flex flex-col items-center justify-center  sm:px-[64px] lg:px-[100px] py-16 gap-16">
+        <h3 className=" text-3xl md:text-5xl text-benzelBlue font-semibold">
+          Projects
+        </h3>
+        <DataTable columns={columns} data={data} />
       </section>
     </div>
   );
