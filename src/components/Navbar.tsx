@@ -171,7 +171,7 @@ export default function Navbar() {
                       onClick={() => setOpenDropdown((prev) => !prev)}
                     />
                   </Link>
-                  <ul className="md:group-hover:block transition-all bg-[#f2f2f2] text-sm absolute hidden text-benzelBlue w-80 space-y-2 py-4 p-2 rounded-md">
+                  <ul className="md:group-hover:block transition-all bg-slate-200 text-sm absolute hidden text-benzelBlue w-80 space-y-2 py-4 p-2 rounded-md">
                     {link.dropdown?.map((dropdownLink, dropdownIndex) => {
                       return (
                         <Link

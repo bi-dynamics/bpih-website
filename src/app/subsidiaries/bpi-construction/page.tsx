@@ -2,11 +2,20 @@ import { ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
+const gallery: string[] = [
+  "/subsidiaries/bpi-construction/bpi-construction.jpg",
+  "/subsidiaries/bpi-construction/bpi-construction-gallery2.JPG",
+  "/subsidiaries/bpi-construction/bpi-construction-gallery4.JPG",
+  "/subsidiaries/bpi-construction/bpi-construction-gallery5.JPG",
+  "/subsidiaries/bpi-construction/bpi-construction-gallery1.webp",
+  "/subsidiaries/bpi-construction/bpi-construction-gallery3.jpg",
+];
+
 export default function page() {
   return (
     <div className="w-full h-fit flex flex-col items-center justify-start">
       <header className="w-full h-[50vh] flex items-center justify-center">
-        <div className="w-full h-full bg-fixed bg-parallax bg-bottom relative after:absolute after:inset-0  after:mix-blend-hard-light">
+        <div className="w-full h-full bg-cover bg-fixed bg-construction_banner bg-center relative after:absolute after:inset-0  after:mix-blend-hard-light">
           <div className="w-full h-full absolute bg-benzelBlue opacity-95"></div>
         </div>
 
@@ -63,6 +72,18 @@ export default function page() {
             </div>
           </div>
         </div>
+      </section>
+      <section className="w-full bg-[#f2f2f2] py-16 sm:px-[64px] lg:px-[100px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
+        {gallery.map((image, index) => (
+          <Image
+            key={index}
+            src={image}
+            width={512}
+            height={512}
+            alt="BPI Construction"
+            className="shadow-2xl brightness-75 hover:brightness-100 transition-all rounded-2xl w-full h-full object-cover"
+          />
+        ))}
       </section>
       <section className="w-full h-fit flex flex-col items-center justify-center  sm:px-[64px] lg:px-[100px] py-16 gap-16">
         <h3 className=" text-3xl md:text-5xl text-benzelBlue font-semibold">

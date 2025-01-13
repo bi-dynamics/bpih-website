@@ -74,6 +74,18 @@ const config: Config = {
       },
       backgroundImage: {
         parallax: 'url("/ABOUT_US_PAGE_BANNER.jpg")',
+        partners_banner:
+          'url("/subsidiaries/benzel-and-partners/benzel-and-partners-investments-subsidiary.jpg")',
+        technologies_banner:
+          'url("/subsidiaries/bpi-information-technologies/bpi-information-technologies.jpg")',
+        supplies_banner:
+          'url("/subsidiaries/bpi-supplies/bpi-supplies-auto-trader-gallery2.jpg")',
+        energy_banner:
+          'url("/subsidiaries/bpi-energy-solutions/bpi-energy-solutions.jpg")',
+        construction_banner:
+          'url("/subsidiaries/bpi-construction/bpi-construction.jpg")',
+        general_trading_banner:
+          'url("/subsidiaries/bpi-general-trading/bpi-general-trading-gallery5.jpg")',
       },
     },
   },

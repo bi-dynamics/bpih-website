@@ -4,11 +4,20 @@ import Link from "next/link";
 import { DataTable } from "./data-table";
 import { columns, data } from "./columns";
 
+const gallery: string[] = [
+  "/subsidiaries/bpi-supplies/bpi-supplies-auto-trader.jpg",
+  "/subsidiaries/bpi-supplies/bpi-supplies-auto-trader-gallery1.jpg",
+  "/subsidiaries/bpi-supplies/bpi-supplies-auto-trader-gallery2.jpg",
+  "/subsidiaries/bpi-supplies/bpi-supplies-auto-trader-gallery3.jpg",
+  "/subsidiaries/bpi-supplies/bpi-supplies-auto-trader-gallery4.jpg",
+  "/subsidiaries/bpi-supplies/bpi-supplies-auto-trader-gallery5.jpg",
+];
+
 export default function page() {
   return (
     <div className="w-full h-fit flex flex-col items-center justify-start">
       <header className="w-full h-[50vh] flex items-center justify-center">
-        <div className="w-full h-full bg-fixed bg-parallax bg-bottom relative after:absolute after:inset-0  after:mix-blend-hard-light">
+        <div className="w-full h-full bg-fixed bg-cover bg-supplies_banner bg-bottom relative after:absolute after:inset-0  after:mix-blend-hard-light">
           <div className="w-full h-full absolute bg-benzelBlue opacity-95"></div>
         </div>
 
@@ -62,7 +71,7 @@ export default function page() {
               </p>
               <div className="relative w-full sm:w-1/3 aspect-square h-auto">
                 <Image
-                  src="/bpi-supplies-logo.png"
+                  src="/bpi-supplies-autotrader-logo.png"
                   alt="BPI Supplies logo"
                   className="object-contain object-center"
                   fill
@@ -71,6 +80,18 @@ export default function page() {
             </div>
           </div>
         </div>
+      </section>
+      <section className="w-full bg-[#f2f2f2] py-16 sm:px-[64px] lg:px-[100px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
+        {gallery.map((image, index) => (
+          <Image
+            key={index}
+            src={image}
+            width={512}
+            height={512}
+            alt="Benzel and Partners Investments"
+            className="shadow-2xl brightness-75 hover:brightness-100 transition-all rounded-2xl w-full h-full object-cover"
+          />
+        ))}
       </section>
       <section className="w-full h-fit flex flex-col items-center justify-center  sm:px-[64px] lg:px-[100px] py-16 gap-16">
         <h3 className=" text-3xl md:text-5xl text-benzelBlue font-semibold">
