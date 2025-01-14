@@ -3,7 +3,6 @@
 import Image, { StaticImageData } from "next/image";
 import BPIH_LOGO from "./../../public/benzel-and-partners-investment-holdings-logo.png";
 import Benzel_And_Partners_Logo from "./../../public/benzel-and-partners-investments.png";
-import BPI_IT_LOGO from "./../../public/bpi-technologies-logo.png";
 import BPI_SUPPLIES_LOGO from "./../../public/bpi-supplies-autotrader-logo.png";
 import BPI_ENERGY_LOGO from "./../../public/bpi-energy-solutions-logo.png";
 import BPI_CONSTRUCTION_LOGO from "./../../public/bpi-construction-logo.png";
@@ -16,12 +15,10 @@ import Link from "next/link";
 import {
   ChevronDown,
   ChevronUp,
-  Locate,
   Mail,
   MapPin,
   MenuIcon,
   Phone,
-  Pin,
   XIcon,
 } from "lucide-react";
 import { Button } from "./ui/button";
@@ -37,7 +34,7 @@ import {
   DrawerTrigger,
 } from "./ui/drawer";
 import { useState } from "react";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 
 interface hyperlinksType {
   title: string;
@@ -107,8 +104,6 @@ export default function Navbar() {
   const [openDropdown, setOpenDropdown] = useState(false);
 
   const currentPath = usePathname();
-
-  console.log(currentPath);
 
   const logoSrc = logoPaths[currentPath] || BPIH_LOGO;
 

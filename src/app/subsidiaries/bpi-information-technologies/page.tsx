@@ -1,4 +1,3 @@
-import Navbar from "@/components/Navbar";
 import { ArrowLeft } from "lucide-react";
 import { columns, data } from "./columns";
 import { DataTable } from "./data-table";

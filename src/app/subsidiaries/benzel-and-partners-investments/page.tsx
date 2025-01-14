@@ -1,4 +1,3 @@
-import Navbar from "@/components/Navbar";
 import { ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
