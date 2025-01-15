@@ -23,6 +23,11 @@ export const columns: ColumnDef<Project>[] = [
 
 export const data: Project[] = [
   {
+    id: "17",
+    name: "Ministry of Agriculture, Water Forestry - Supply and Delivery of Fencing material to the Government",
+    dateCompleted: "December 2015",
+  },
+  {
     id: "12",
     name: "Supplying and delivery of corporate wear and promotional material - Parliament of Namibia National council and national assembly",
     dateCompleted: "February 2014",
@@ -31,10 +36,5 @@ export const data: Project[] = [
     id: "13",
     name: "Kunene Regional Council: Supply and delivery of corporate wear",
     dateCompleted: "November 2013",
-  },
-  {
-    id: "17",
-    name: "Ministry of Agriculture, Water Forestry - Supply and Delivery of Fencing material to the Government",
-    dateCompleted: "December 2015",
   },
 ];

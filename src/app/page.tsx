@@ -33,14 +33,25 @@ export default function Home() {
             BPIH strives to be the most compliant company <br /> in product and
             service delivery.
           </p>
-          <Link href="/Benzel-Partners-Company-Profile.pdf" target="_blank">
-            <Button
-              size="lg"
-              className="w-fit mt-4 bg-benzelRed rounded-full text-base flex items-center justify-center gap-2 py-[32px] px-[18px] font-medium"
-            >
-              VIEW COMPANY PROFILE <Download size={24} />
-            </Button>
-          </Link>
+          <div className="w-full flex flex-col items-center gap-4">
+            <Link href="/Benzel-Partners-Company-Profile.pdf" target="_blank">
+              <Button
+                size="lg"
+                className="w-fit mt-4 bg-benzelRed rounded-full text-base flex items-center justify-center gap-2 py-[32px] px-[18px] font-medium"
+              >
+                View Our Company Profile <Download size={24} />
+              </Button>
+            </Link>
+            <Link href="/#contact">
+              <Button
+                size="sm"
+                variant="outline"
+                className="w-fit bg-transparent rounded-full text-base py-[32px] px-[18px] font-medium"
+              >
+                Contact Us
+              </Button>
+            </Link>
+          </div>
         </div>
       </header>
       <section className="bg-slate-100 w-full h-fit sm:h-fit flex flex-col md:flex-row items-center justify-center gap-16 px-4 md:px-[64px] lg:px-[100px] py-16">

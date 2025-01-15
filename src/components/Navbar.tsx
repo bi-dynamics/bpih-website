@@ -61,7 +61,7 @@ const hyperlinks: hyperlinksType[] = [
         href: "/subsidiaries/benzel-and-partners-investments",
       },
       {
-        title: "BPI Information Technology CC",
+        title: "BPI Information Technologies CC",
         href: "/subsidiaries/bpi-information-technologies",
       },
       {
@@ -267,34 +267,47 @@ export default function Navbar() {
               )}
             </Link>
             {openDropdown && (
-              <ul className="text-xl flex flex-col gap-2 items-start justify-center text-left">
+              <ul className="text-base flex flex-col gap-2 items-start justify-center text-left">
                 <Link
                   className="active:text-benzelRed"
                   href="/subsidiaries/benzel-and-partners-investments"
                 >
-                  Benzel & Partners Investments
+                  Benzel & Partners Investments (Pty) Ltd
                 </Link>
                 <Link
                   className="active:text-benzelRed"
-                  href="/subsidiaries/bpi-consultants"
+                  href="/subsidiaries/bpi-information-technologies"
                 >
-                  BPI Consultants
+                  BPI Information Technologies CC
+                </Link>
+                <Link
+                  className="active:text-benzelRed"
+                  href="/subsidiaries/bpi-supplies-auto-trader"
+                >
+                  BPI Supplies Auto Trader CC
                 </Link>
                 <Link
                   className="active:text-benzelRed"
                   href="/subsidiaries/bpi-energy-solutions"
                 >
-                  BPI Energy Solutions
+                  BPI Energy Solutions (Pty) Ltd
                 </Link>
+
                 <Link
                   className="active:text-benzelRed"
                   href="/subsidiaries/bpi-construction"
                 >
-                  BPI Construction
+                  BPI Construction CC
+                </Link>
+                <Link
+                  className="active:text-benzelRed"
+                  href="/subsidiaries/bpi-general-trading"
+                >
+                  BPI General Trading CC
                 </Link>
               </ul>
             )}
-            <Link href="/projects">Projects</Link>
+
             <Button
               size="lg"
               className="bg-benzelRed py-[32px] md:py-[32px] px-[18px] rounded-full"

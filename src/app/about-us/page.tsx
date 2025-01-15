@@ -1,5 +1,5 @@
 import Image from "next/image";
-import bannerImage from "../../../public/ABOUT_US_PAGE_BANNER.jpg";
+import aboutUs from "../../../public/about-us.jpg";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -13,17 +13,17 @@ export default function page() {
   return (
     <div className="w-full h-fit flex flex-col items-center justify-start">
       <header className="w-full h-[50vh] flex items-center justify-center">
-        <div className="w-full h-full bg-fixed bg-parallax bg-bottom relative after:absolute after:inset-0 after:mix-blend-hard-light">
+        <div className="w-full h-full bg-fixed bg-about_us_banner bg-center relative after:absolute after:inset-0 after:mix-blend-hard-light">
           <div className="w-full h-full absolute bg-benzelBlue opacity-95"></div>
         </div>
         <h1 className="absolute text-5xl sm:text-7xl font-bold">About Us</h1>
       </header>
-      <section className="w-full h-fit md:px-[32px] md:py-32 flex flex-col lg:flex-row items-center justify-center">
-        <div className="relative w-full h-[50vh] sm:h-[40vh] lg:h-[150vh]">
+      <section className="w-full h-fit md:px-[32px] md:py-32 grid  lg:grid-cols-2 items-start lg:items-center justify-center">
+        <div className="relative h-full w-full lg:h-full">
           <Image
-            src={bannerImage}
+            src={aboutUs}
             alt="About BPIH"
-            className="object-cover rounded-md object-bottom grayscale"
+            className="object-cover rounded-md object-bottom grayscale "
             fill
           />
           <div className="w-full h-full absolute bg-benzelBlue opacity-50"></div>
@@ -34,52 +34,27 @@ export default function page() {
               BENZEL & PARTNERS INVESTMENT HOLDINGS
             </h3>
             <h2 className="text-xl sm:text-3xl md:text-5xl text-benzelBlue font-semibold">
-              Highly qualified individuals with diverse knowledge, expertise and
-              experience in business and IT world.{" "}
+              Expertise Redefined in Business and IT.
             </h2>
           </div>
-          <p className="text-lg text-slate-500">
-            Benzel and Partners Investment Holdings (PTY) LTD, a Namibian
-            privately owned company with a hundred percent Namibian ownership
-            was established in 2008 as a close cooperation with a registration
-            number CC2008/3029. Due to the growth and demands of the business,
-            it was changed to a proprietary company (Pty) Ltd in 2011 with a
-            registration number 2011/0270. In 2012 it was eventually converted
-            into a holding company with a proven track record in the fields of
-            Technology, Construction, Consultants, Manufacturing, Import and
-            Export, General supplying of various products from domestic,
-            industrial to commercial, with all these different portfolios
-            falling under its subsidiaries, namely{" "}
+          <p className="text-base md:text-lg text-slate-500">
+            Benzel and Partners Investment Holdings (PTY) LTD (BPIH), a 100%
+            Namibian-owned company established in 2008, operates as a holding
+            company with a diverse portfolio across technology, construction,
+            consulting, manufacturing, import/export, and general supply. Its
+            subsidiaries include{" "}
             <span className="font-semibold">
-              Benzel and Partners Investments (Pty) Ltd, B.P.I Technologies CC,
-              B.P.I Energy Solutions CC, B.P.I Construction CC, B.P.I Supply
-              Autotrader CC, B.P.I Consultants CC and Bach Street Investments
-              Number Ten Cc.
+              B.P.I Technologies CC, B.P.I Energy Solutions CC, B.P.I
+              Construction CC, B.P.I Supply Autotrader CC, B.P.I Consultants CC,
+              and Bach Street Investments Number Ten CC.
             </span>
             <br />
-            <br /> Operating in different socio economic and political
-            environment with an exceptionally demanding market where an attitude
-            of innovation, integrity and diligence is permanently required,{" "}
-            <span className="font-semibold">
-              BPIH has been successful in launching state of the art products,
-              services and solutions meeting its customers stringent
-              requirements.
-            </span>
-            <br />
-            <br /> This therefore calls for significant investments in research
-            and development, ensuring that emerging technologies and techniques
-            are consistently incorporated in new products and service delivery.
-            <br />
-            <br /> Striving to achieve excellence in its domain of activities,
-            BPIH has supplied products and services over the years in its
-            domestic market. BPIH has a competitive and innovative character as
-            well as the flexibility to supply products and services tailored to
-            meet our customers specific requirements. We are a company committed
-            to provide full customer satisfaction. Being proud of having
-            developed long lasting relationship with our international partners
-            and clients, we are a company geared to face the challenges of the
-            future with optimism and confidence, where we are prepared to go an
-            extra mile.
+            <br /> BPIH excels in delivering innovative, tailored solutions
+            across various sectors, investing heavily in research and
+            development to integrate emerging technologies and meet stringent
+            customer demands. Known for its commitment to excellence, customer
+            satisfaction, and long-term partnerships, BPIH is well-positioned to
+            meet future challenges with confidence and adaptability.
           </p>
         </div>
       </section>
@@ -93,7 +68,7 @@ export default function page() {
               height={128}
             />
             <h3 className="text-white text-2xl font-bold">Mission</h3>
-            <p className="w-fit text-pretty text-primary-foreground text-center text-sm sm:text-lg">
+            <p className="w-fit text-pretty text-primary-foreground text-center text-base md:text-lg">
               A lot of companies have ignored business ethics and good corporate
               governance in their bid to make quick profits, yet at BPIH we
               thrive to give a service beyond our client&apos;s expectation. Our
@@ -109,7 +84,7 @@ export default function page() {
               height={128}
             />
             <h3 className="text-white text-2xl font-bold">Values</h3>
-            <p className="w-fit text-pretty text-center text-primary-foreground text-sm sm:text-lg">
+            <p className="w-fit text-pretty text-center text-primary-foreground text-base md:text-lg">
               We put our clients first and try to make a long term commitment to
               quality, reliability, efficiency and effectiveness. We believe
               that effectiveness towards customer satisfaction is the essence of
@@ -126,7 +101,7 @@ export default function page() {
               height={128}
             />
             <h3 className="text-white text-2xl font-bold">Vision</h3>
-            <ul className="w-fit text-sm sm:text-lg">
+            <ul className="w-fit text-base md:text-lg">
               <p className="w-full text-pretty text-left sm:text-center text-primary-foreground font-semibold mb-2">
                 To be a market leader in product and service delivery.
                 <br />

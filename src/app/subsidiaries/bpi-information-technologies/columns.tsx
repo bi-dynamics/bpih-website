@@ -38,9 +38,9 @@ export const data: Project[] = [
     dateCompleted: "2024",
   },
   {
-    id: "5",
-    name: "One year subscription and Installation of two outer firewall licenses and professional services to restore Government Services	",
-    dateCompleted: "March 2021",
+    id: "8",
+    name: "Supply and delivery of various Jupiter equipment to Telecom Namibia",
+    dateCompleted: "December 2022",
   },
   {
     id: "6",
@@ -53,29 +53,19 @@ export const data: Project[] = [
     dateCompleted: "September 2021",
   },
   {
-    id: "8",
-    name: "Supply and delivery of various Jupiter equipment to Telecom Namibia",
-    dateCompleted: "December 2022",
-  },
-  {
-    id: "10",
-    name: "Supply and Delivery of Computer Equipment - Ministry of Defense Forces",
-    dateCompleted: "December 2014",
-  },
-  {
     id: "15",
     name: "Supply and Delivery of top of the rack switches to MTC",
     dateCompleted: "September 2021",
   },
   {
-    id: "16",
-    name: "University of Namibia: Themes ( Home page, Faculty, Search, Generic) CMS Setup and Installation, Style Guide, Project Management. Implementation, Training Workflow client application, Workflow engine and Process Definition",
-    dateCompleted: "October 2015",
+    id: "5",
+    name: "One year subscription and Installation of two outer firewall licenses and professional services to restore Government Services	",
+    dateCompleted: "March 2021",
   },
   {
-    id: "18",
-    name: "Nored - Supply & Delivery of IT Equipment",
-    dateCompleted: "April 2016",
+    id: "24",
+    name: "Introduction to Junos, Training for Jupiter Certified Network Associate and Introduction to Jupiter firewall at the Office of the Prime Minister",
+    dateCompleted: "September 2019",
   },
   {
     id: "21",
@@ -83,8 +73,18 @@ export const data: Project[] = [
     dateCompleted: "Febreuary 2017",
   },
   {
-    id: "24",
-    name: "Introduction to Junos, Training for Jupiter Certified Network Associate and Introduction to Jupiter firewall at the Office of the Prime Minister",
-    dateCompleted: "September 2019",
+    id: "18",
+    name: "Nored - Supply & Delivery of IT Equipment",
+    dateCompleted: "April 2016",
+  },
+  {
+    id: "16",
+    name: "University of Namibia: Themes ( Home page, Faculty, Search, Generic) CMS Setup and Installation, Style Guide, Project Management. Implementation, Training Workflow client application, Workflow engine and Process Definition",
+    dateCompleted: "October 2015",
+  },
+  {
+    id: "10",
+    name: "Supply and Delivery of Computer Equipment - Ministry of Defense Forces",
+    dateCompleted: "December 2014",
   },
 ];

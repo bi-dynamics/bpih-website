@@ -40,56 +40,26 @@ export default function page() {
             </h2>
           </div>
           <div className=" text-base md:text-lg text-slate-500 text-justify">
-            is also involved in construction, information technology,
-            manufacturing, import and export of various goods with different
-            size and magnitude, general consultancy, printing and other related
-            services.
-            <br />
-            <br />
-            For its successful undertaking of the projects we consistently use
-            business acumen, experience and knowledge to help our clients build
-            their business.
-            <br />
-            <br />
-            Benzel and partners is among the wholly owned Namibian companies
-            adhering to good corporate ethics. It is in good standing with
-            social security commission and the receiver of revenue. It is also
-            registered with equity commission, SME and Namibian preferential
-            procurement corporation.
-            <br />
-            <br />
-            We are also a representative and a local partner of various
-            international companies including Marce Firefighting Technology and
-            Chadda Power. This association has seen us deliver and supply
-            Firefighting trucks to the Ministry of regional, local housing and
-            rural development, Namibian Airports Company and City of Windhoek
-            fire department. Under the association with international companies
-            we also bough in IMISON WALLING TECHNOLOGY in construction industry,
-            which is a first of its kind in Namibia. Benzel and Partners
-            Investments (Pty) Ltd through BPI Energy Solutions (Pty) Ltd, where
-            it has a 100% controlling stake, is owning 5MW through an SPV called
-            Ejuva One Solar Energy (Pty) Ltd situated in Gobabis town, Omaheke
-            Region. Benzel and Partners Investments (Pty) Ltd is also a
-            developer and a shareholder in Ejuva One Solar Energy (Pty) Ltd.
+            Benzel and Partners Investments (Pty) Ltd is a Namibian-owned
+            company engaged in construction, IT, manufacturing, import/export,
+            consulting, printing, and related services. Known for its business
+            acumen and adherence to corporate ethics, the company partners with
+            international firms like Marce Firefighting Technology and Chadda
+            Power, enabling it to deliver firefighting trucks and introduce
+            innovations such as IMISON Walling Technology to Namibia. It is a
+            developer and shareholder in renewable energy projects, including a
+            5MW solar plant in Gobabis through BPI Energy Solutions.
             <br />
             <br />
             <div className="flex flex-col sm:flex-row w-full items-start justify-between gap-16 ">
               <p className="w-full text-justify">
-                This is one of the life time landmark milestones project with an
-                endless benefits to our country. We have been also involved in
-                many projects from organizations and parastatals some of them
-                being Telecom Namibia, Parliament of the republic of Namibia
-                from both houses that is national assembly and national council,
-                construction of Oshakati hospital nuclear medical building,
-                supply and delivery of networking and installation of
-                information communication technology to the university of
-                Namibia.
-                <br />
-                <br />
-                Over the years Benzel and Partners Investments (Pty) Ltd has
-                developed a lasting relationship with its partners and customers
-                which continuously and further brings it to the lime light of
-                Namibian market.
+                The company has successfully completed notable projects for
+                clients such as Telecom Namibia, Parliament of Namibia, and the
+                University of Namibia, highlighting its expertise in
+                construction and ICT solutions. Benzel and Partners Investments
+                is committed to building strong partnerships and contributing to
+                Namibia's development while maintaining compliance with
+                statutory regulations and promoting local equity.
               </p>
               <div className="relative w-full md:w-1/3 aspect-square h-auto">
                 <Image
@@ -103,7 +73,7 @@ export default function page() {
           </div>
         </div>
       </section>
-      <section className="w-full bg-[#f2f2f2] py-16 sm:px-[64px] lg:px-[100px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
+      <section className="w-full bg-[#f2f2f2] py-16 px-4 sm:px-[64px] lg:px-[100px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
         {gallery.map((image, index) => (
           <Image
             key={index}

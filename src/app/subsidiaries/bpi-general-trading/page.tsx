@@ -37,29 +37,22 @@ export default function page() {
             </h2>
           </div>
           <div className=" text-base md:text-lg text-slate-500 text-justify">
-            B.P.I General Trading CC was founded in 2012 with registration
-            number CC/2012/4902. It is also another arm of BPIH which
-            specializes in providing professional advice to client companies. It
-            is manned by highly qualified consulting team in various fields
-            including finance, accounting, information technology, human
-            resources, corporate advisory services and other related services.
-            The subsidiary came into being after evaluating the need for the
-            provision of offering training to the end user after delivery and
-            supply of our products hence reduction in maintenance cost because
-            of lack of technical know-how to the end user. We are not limited
-            only to providing service to where we would have supplied our
-            products, but open to the whole economy including all government
-            ministries. We have provided consultants services to UIS village
-            council for the compilation of financial statements.
+            B.P.I General Trading CC specializes in providing professional
+            consulting services across various fields, including finance,
+            accounting, IT, human resources, and corporate advisory. Founded in
+            2012, the company also offers training to end users to enhance
+            technical skills and reduce maintenance costs. While initially
+            supporting its own product offerings, B.P.I General Trading now
+            extends its services to all sectors, including government
+            ministries.
             <br />
             <br />
             <div className="flex flex-col-reverse sm:flex-row w-full items-start justify-between gap-16 ">
               <p className="w-full text-justify">
-                We are looking for a bright future in the consultants services
-                as we have a qualified and an experienced team in this field.
-                The company complies with all statutory regulations both from
-                social security commission and the receiver of revenue, with SME
-                certificates and employment equity.
+                Notable work includes assisting the UIS Village Council with
+                financial statement compilation. The company is fully compliant
+                with statutory regulations and committed to employment equity
+                and SME development.
               </p>
               <div className="relative w-1/3 aspect-square h-auto">
                 <Image
@@ -73,7 +66,7 @@ export default function page() {
           </div>
         </div>
       </section>
-      <section className="w-full bg-[#f2f2f2] py-16 sm:px-[64px] lg:px-[100px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
+      <section className="w-full bg-[#f2f2f2] py-16 px-4 sm:px-[64px] lg:px-[100px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
         {gallery.map((image, index) => (
           <Image
             key={index}

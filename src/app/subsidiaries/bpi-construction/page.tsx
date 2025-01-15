@@ -37,29 +37,23 @@ export default function page() {
             </h2>
           </div>
           <div className=" text-base md:text-lg text-slate-500 text-justify">
-            B.P.I Construction CC was incorporated in 2012 with registration
-            number CC/2012/4895. We are a company involved in business which
-            ventures from construction of domestic, industrial and commercial
-            buildings, renovations, welding, plumbing to electrical and other
-            related services. The coordination and management of deadlines is
-            crucial to the success of construction operations. Communication
-            plays a vital role in providing the means for interchange and
-            gathering of information in the day to day running of projects. We
-            bring superior craftsmanship to every project whether constructing
-            an airport or a three kilometer suspension bridge. We have provided
-            services to big organizations such as city of Windhoek in
-            construction, alterations and additions to parks division
-            Pionerspark, Outapi open market, NHE houses in Omusati region. The
-            direction we provide is based on a thorough knowledge of the
-            industry and our client&apos;s specific needs.
+            B.P.I Construction CC, established in 2012, specializes in
+            constructing domestic, industrial, and commercial buildings, as well
+            as renovations, welding, plumbing, and electrical services. The
+            company emphasizes effective communication and deadline management
+            to ensure project success, delivering superior craftsmanship across
+            diverse projects, from airports to suspension bridges.
             <br />
             <br />
             <div className="flex flex-col sm:flex-row w-full items-start justify-between gap-16 ">
               <p className="w-full text-justify">
-                We also provide our clients with reliable and expedient
-                information throughout project process. The company is in full
-                complaint with social security commission and ministry of
-                finance. We are also registered as SME and employment equity.
+                Notable clients include the City of Windhoek, Outapi Open
+                Market, and NHE housing projects in the Omusati region. B.P.I
+                Construction is committed to meeting industry standards,
+                addressing client needs, and providing reliable updates
+                throughout projects. The company complies with statutory
+                regulations and is registered as an SME, promoting employment
+                equity.
               </p>
               <div className="relative w-full sm:w-1/3 aspect-square h-auto">
                 <Image
@@ -73,7 +67,7 @@ export default function page() {
           </div>
         </div>
       </section>
-      <section className="w-full bg-[#f2f2f2] py-16 sm:px-[64px] lg:px-[100px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
+      <section className="w-full bg-[#f2f2f2] py-16 px-4 sm:px-[64px] lg:px-[100px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
         {gallery.map((image, index) => (
           <Image
             key={index}

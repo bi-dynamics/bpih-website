@@ -39,35 +39,24 @@ export default function page() {
             </h2>
           </div>
           <div className=" text-base md:text-lg text-slate-500 text-justify">
-            was incorporated in 2012 with registration number CC/2012/5012.
-            B.P.I Supplies Auto Trader has unique expertise in delivery and
-            supply of various products. Our expertise ranges from import and
-            export, trading, supply and delivery of various products, and other
-            related services. B.P.I Supplies Auto Trader CC understands that
-            material supplies are catalyst for economic growth. Material
-            suppliers ensures that our primary industries are functional and
-            operate smoothly, thus ensures optimal production. We at B.P.I
-            Supplies Auto Trader have taken up the challenge and have made a
-            strategic decision to operate in both the upstream and downstream in
-            terms of exploring all the avenues in the economy. We consistently
-            seek to engage and partner up with capable local, regional and
-            International partners in order to cater for the ever increasing
-            demand for material in our economy. Having been recognized by many
-            organizations at the best preferred supplier, we do not hesitate to
-            mention these organizations such as Ministry of education and Kunene
-            regional council where we have supplied promotional and corporate
-            wear, We have also supplied Fencing materials to the Ministry of
-            Agriculture, Water and Forestry.
+            B.P.I Supplies Auto Trader CC, a subsidiary of BPIH established in
+            2012, specializes in the import, export, trading, supply, and
+            delivery of various products. Recognizing the critical role of
+            material supplies in economic growth, the company operates both
+            upstream and downstream to meet the increasing demand for materials
+            in the economy.
             <br />
             <br />
             <div className="flex flex-col sm:flex-row w-full items-start justify-between gap-16 ">
               <p className="w-full text-justify">
-                We are in good standing with social security commission and the
-                ministry of finance with all the certificates from SME,
-                Employment equity and Namibia preferential procurement
-                corporation. The know how in the field of supply and delivery of
-                various products enables B.P.I Supply Autotrader to offer
-                products fully compliance with the customers specification.
+                B.P.I Supplies Auto Trader partners with local, regional, and
+                international organizations to deliver high-quality products,
+                fully compliant with customer specifications. Notable clients
+                include the Ministry of Education, Kunene Regional Council, and
+                the Ministry of Agriculture, Water, and Forestry. The company is
+                fully compliant with statutory regulations and is registered as
+                an SME, promoting employment equity and preferential
+                procurement.
               </p>
               <div className="relative w-full sm:w-1/3 aspect-square h-auto">
                 <Image
@@ -81,7 +70,7 @@ export default function page() {
           </div>
         </div>
       </section>
-      <section className="w-full bg-[#f2f2f2] py-16 sm:px-[64px] lg:px-[100px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
+      <section className="w-full bg-[#f2f2f2] py-16 px-4 sm:px-[64px] lg:px-[100px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
         {gallery.map((image, index) => (
           <Image
             key={index}

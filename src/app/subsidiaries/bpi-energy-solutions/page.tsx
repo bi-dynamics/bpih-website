@@ -39,22 +39,19 @@ export default function page() {
             </h2>
           </div>
           <div className=" text-base md:text-lg text-slate-500 text-justify">
-            A subsidiary of BPIH, which was incorporated in 2017 with a
-            registration number 2017/1120, is a company involved in Energy and
-            all related business, PV Solar farms, wind energy, Biomass energy
-            and supply of solar PV parts. BPI Energy Solutions has a 34% share
-            of the 5MW through a SPV called Ejuva One Solar Enegy (Pty) Ltd.
-            Benzel and Partners has got 100% controlling stake in BPI Energy
-            Solution. The solar farm is situated in Gobabis town, Omaheke
-            Region.
+            BPI Energy Solutions, a subsidiary of BPIH established in 2017,
+            specializes in renewable energy, including PV solar farms, wind
+            energy, biomass energy, and solar PV parts supply. The company holds
+            a 34% stake in the 5MW Ejuva One Solar Energy project in Gobabis,
+            Omaheke Region, with Benzel and Partners having full control of BPI
+            Energy Solutions.
             <br />
             <br />
             <div className="flex flex-col sm:flex-row w-full items-start justify-between gap-16 ">
               <p className="w-full text-justify">
-                The company strives to achieve excellence in its domain of
-                activities. The company is committed to provide full customers
-                satisfaction and developing a long lasting solution with our
-                local and international partners.
+                Committed to excellence, the company prioritizes customer
+                satisfaction and long-term solutions in collaboration with local
+                and international partners.
               </p>
               <div className="relative w-full sm:w-1/3 aspect-square h-auto">
                 <Image
@@ -68,7 +65,7 @@ export default function page() {
           </div>
         </div>
       </section>
-      <section className="w-full bg-[#f2f2f2] py-16 sm:px-[64px] lg:px-[100px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
+      <section className="w-full bg-[#f2f2f2] py-16 px-4 sm:px-[64px] lg:px-[100px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
         {gallery.map((image, index) => (
           <Image
             key={index}

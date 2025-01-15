@@ -73,6 +73,7 @@ const config: Config = {
         geistSans: ["var(--font-geist-sans)"],
       },
       backgroundImage: {
+        about_us_banner: 'url("/about-us.jpg")',
         parallax: 'url("/ABOUT_US_PAGE_BANNER.jpg")',
         partners_banner:
           'url("/subsidiaries/benzel-and-partners/benzel-and-partners-investments-subsidiary.jpg")',

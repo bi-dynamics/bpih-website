@@ -40,74 +40,38 @@ export default function page() {
             </h2>
           </div>
           <div className=" text-base md:text-lg text-slate-500 text-justify">
-            A subsidiary of BPIH which was incorporated in 2012 with
-            registration number CC/2012/4903 is renowned with its punctuality to
-            deadlines and delivery periods. B.P.I Technologies has a vast and
-            recognized experience in delivering and supplying of various
-            information technology products, software development, information
-            technology consultants, security management system, installation,
-            networking and related services. It is a company with highly
-            qualified information technology professional specialist staff.
+            B.P.I Technologies, a subsidiary of BPIH established in 2012, excels
+            in delivering innovative IT solutions and services, including IT
+            products, software development, security systems, networking,
+            consultancy, and integration. With a team of highly skilled
+            professionals, the company provides state-of-the-art, tailored
+            solutions to meet global ICT standards.
             <br />
             <br />
-            Information communication technology plays a vital role in our day
-            to day running of activities as the world is becoming a global
-            village. To cope with such demands B.P.I Technologies is offering
-            state of the art products and services specifically designed to
-            automate and integrate all the ICT of a world standard. We have
-            undertaken big projects in the Ministry of defense in supplying and
-            installation of laptops and related products, and another milestone
-            achieved for the Adult Education Information Management Systems
-            (AEIMS) Projects for the Ministry of Education. This project will
-            enable the Directorate of Education to achieve its Strategic goals.
+            Notable projects include the Ministry of Defense (supply and
+            installation of IT products) and the Adult Education Information
+            Management System (AEIMS) for the Ministry of Education. B.P.I
+            Technologies also partners with Portugal-based EID for tactical
+            communications and systems integration, offering comprehensive
+            turnkey solutions.
             <br />
             <br />
-            B.P.I Technologies will go on providing information communication
-            technology for excellent performance. In order to undertake the
-            above with diligence we have become EID local representative, a
-            company from Portugal which specializes and majoring in field
-            communications, tactical network solutions, naval communications,
-            digital intercoms, military messaging and systems integration.
-            Teaming with our partners B.P.I Technologies offers turnkey
-            solutions, tailored to specific customer requirements and including
-            not only the communications and information technology components of
-            such solutions but also civil works and other specifically required
-            components.
+            The company has expertise in enterprise data warehousing, revenue
+            assurance, fraud detection systems, and firewall solutions for
+            telecommunications. It also provides network design, operations, and
+            data center solutions, leveraging Microsoft-certified specialists
+            for Exchange and Active Directory services.
             <br />
             <br />
             <div className="flex flex-col-reverse md:flex-row w-full items-start justify-between gap-16 ">
               <p className="w-full text-justify">
-                BPI Technology is also involved in three major projects with
-                telecommunication companies. These are, Consultancy and
-                Integration services for the enterprise data warehousing (EDW),
-                Supply, Delivery and Installation of the Revenue Assurance and
-                Fraud Detection and Management System and Providing SS7
-                Signalling, Diameter and SMS Firewall. In addition this this,
-                BPI technology prides itself as having some of the most skilled
-                engineers in the field of Network Design, Implementation,
-                Operations and Maintenance as well as DATA Center, Disaster
-                Recovery Site design and Implementation. Furthermore, BPI
-                Technologies has Microsoft certified specialists that handle
-                Microsoft Exchange and Microsoft Active Directory and other LDAP
-                implementations and maintenance.
-                <br />
-                <br />
-                Being driven by an attitude of continously innovating, BPI
-                Technologies has successfully ventured into vehicle tracking,
-                fuel, oil and fleet management. To date we have managed a fleet
-                of 750 vehicles with vehicle tracking and fuel management
-                devices for City of Windhoek. Fleet management refers to all
-                actions that need to take place to keep a fleet running
-                efficiently, on time, and within budget. It is used by fleet
-                managers to monitor fleet activities and make decisions about
-                proper asset management, dispatch and routing, and vehicle
-                acquisition and disposal. Fleet management helps to ensure that
-                a fleet is meeting compliance requirements, continuosly
-                improving efficiencies and reducing costs. GPS tracking involves
-                a network of satellites that triangulate a trackable
-                device&apos;s location, movement, and speed. These trackable
-                devices are installed in vehicles or can be help in your hand
-                like a cellphone.
+                Additionally, B.P.I Technologies has ventured into vehicle
+                tracking, fleet, fuel, and oil management, managing over 750
+                vehicles for the City of Windhoek. These services ensure
+                compliance, cost reduction, and operational efficiency through
+                GPS tracking and advanced fleet management solutions. The
+                company remains committed to continuous innovation and excellent
+                performance.
               </p>
               <div className="relative w-1/3 md:w-2/3 aspect-square h-auto">
                 <Image
@@ -121,7 +85,7 @@ export default function page() {
           </div>
         </div>
       </section>
-      <section className="w-full bg-[#f2f2f2] py-16 sm:px-[64px] lg:px-[100px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
+      <section className="w-full bg-[#f2f2f2] py-16 px-4 sm:px-[64px] lg:px-[100px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
         {gallery.map((image, index) => (
           <Image
             key={index}
