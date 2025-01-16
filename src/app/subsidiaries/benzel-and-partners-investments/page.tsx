@@ -58,7 +58,7 @@ export default function page() {
                 University of Namibia, highlighting its expertise in
                 construction and ICT solutions. Benzel and Partners Investments
                 is committed to building strong partnerships and contributing to
-                Namibia's development while maintaining compliance with
+                Namibia&apos;s development while maintaining compliance with
                 statutory regulations and promoting local equity.
               </p>
               <div className="relative w-full md:w-1/3 aspect-square h-auto">
