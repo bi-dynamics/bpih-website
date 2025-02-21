@@ -85,7 +85,7 @@ const hyperlinks: hyperlinksType[] = [
 
   {
     title: "CONTACT US",
-    href: "/#contact-us",
+    href: "/#contact",
     CTA: true,
   },
 ];
@@ -217,7 +217,7 @@ export default function Navbar() {
       <div className=" z-50 p-4 sticky top-0 px-8 bg-benzelBlueShade shadow-md w-full flex justify-between items-center">
         <Link className="w-full" href="/">
           <Image
-            src={BPIH_LOGO_MOBILE}
+            src={logoSrc}
             alt="BPIH LOGO"
             height={151}
             width={180}

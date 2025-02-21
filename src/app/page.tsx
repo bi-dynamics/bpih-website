@@ -25,15 +25,15 @@ export default function Home() {
           fill
           className="absolute -z-10 object-cover filter contrast-125 brightness-75 blur-[4px] sm:blur-0"
         />
-        <div className="w-full px-4 md:px-[64px] lg:px-[100px] flex flex-col gap-4 items-center sm:items-start">
-          <h1 className=" text-7xl font-bold tracking-tight text-center sm:text-left">
+        <div className="w-full px-4 md:px-[64px] lg:px-[100px] flex flex-col gap-4 items-center md:items-start">
+          <h1 className=" text-7xl font-bold tracking-tight text-center md:text-left">
             <span className="text-benzelRed">BUSINESS</span> AND IT WORLD
           </h1>
-          <p className="text-2xl text-pretty font-medium text-center sm:text-left">
+          <p className="text-2xl text-pretty font-medium text-center md:text-left">
             BPIH strives to be the most compliant company <br /> in product and
             service delivery.
           </p>
-          <div className="w-full flex flex-col items-center gap-4">
+          <div className="w-full flex flex-col items-center md:items-start gap-4">
             <Link href="/Benzel-Partners-Company-Profile.pdf" target="_blank">
               <Button
                 size="lg"
