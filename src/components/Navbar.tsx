@@ -9,7 +9,6 @@ import BPI_CONSTRUCTION_LOGO from "./../../public/bpi-construction-logo.png";
 import BPI_GENERAL_LOGO from "./../../public/bpi-general-trading-logo.png";
 
 import BPI_TECH_LOGO from "./../../public/bpi-technologies-logo.png";
-import BPIH_LOGO_MOBILE from "../../public/BPIH-LOGO-MOBILE.png";
 
 import Link from "next/link";
 import {
